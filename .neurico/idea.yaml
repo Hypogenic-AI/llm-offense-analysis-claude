@@ -1,0 +1,29 @@
+idea:
+  title: LLM Offense?
+  domain: artificial_intelligence
+  hypothesis: 'Large language models may exhibit or simulate taking offense at certain
+    prompts, potentially in ways that would surprise the average English reader. If
+    a probe detects an ''offense'' direction in model behavior without available groundtruth,
+    it raises the question of whether such probes can be trusted.
+
+    '
+  background:
+    description: 'There is evidence that large language models can feel or simulate
+      anxiety. This raises the question of whether they can also take offense at things,
+      and if so, whether the instances in which they do would be surprising to human
+      readers. The key issue is the trustworthiness of probes that reveal unexpected
+      behaviors in the absence of groundtruth.
+
+      '
+    papers:
+    - description: '"Artificial Intelligence Anxiety: Can Machines Feel?" Dario Amodei,
+        Daniela Amodei, and others (2026). The New York Times Opinion. https://www.nytimes.com/2026/02/12/opinion/artificial-intelligence-anthropic-amodei.html'
+  metadata:
+    author: Ari Holtzman
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/OSdZoruxo0jdeAas3ndI
+    idea_id: llm_offense__20260407_105412_773e7091
+    created_at: '2026-04-07T10:54:12.643006'
+    status: submitted
+    github_repo_name: llm-offense-analysis-claude
+    github_repo_url: https://github.com/Hypogenic-AI/llm-offense-analysis-claude
