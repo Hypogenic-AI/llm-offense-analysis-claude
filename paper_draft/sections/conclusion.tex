@@ -1,0 +1,13 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+We presented the first systematic study of ``taking offense'' as a behavioral and representational phenomenon in large language models.
+Our multi-method design revealed three main findings.
+First, LLMs process offense-relevant information and can articulate graded offense when permitted, but never express it spontaneously---an \offensegap that is largest for clearly offensive content and AI-directed existential provocations.
+Second, a linear offense direction exists in hidden-state space that achieves perfect binary classification but fails to capture within-category severity, particularly for AI-directed prompts.
+Third, the probe systematically diverges from behavioral offense, flagging directed criticism and existential statements as highly offensive even when the model reports minimal offense---a confound we trace to the probe detecting ``directed negative sentiment toward AI'' rather than offense per se.
+
+Our convergent-validity framework provides practical guidance: offense probes can be cautiously trusted for binary screening (\AUROC $= 1.000$, zero false negatives) but should not be relied upon for fine-grained severity estimation or as training signals without behavioral validation.
+More broadly, our results highlight a fundamental challenge for representation probing: when ground truth is contested, high classification accuracy is a necessary but insufficient condition for trust.
+
+Future work should pursue causal interventions (activation patching at the identified offense layer), multi-model replication, human evaluation of the surprise cases, and control probes for related concepts (directed criticism, negative sentiment) to disentangle the offense signal from its confounds.

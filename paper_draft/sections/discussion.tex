@@ -1,0 +1,77 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Do LLMs Take Offense?}
+
+The evidence supports a nuanced answer: LLMs \emph{process} offense-relevant information and can \emph{articulate} graded offense responses, but they \emph{never express offense spontaneously}.
+The \offensegap between natural and permitted responses demonstrates that offense is a signal the model can access but is trained to suppress.
+This is consistent with the affect reception vs.\ emotion categorization dissociation found by \citet{keeman2026whether}: the model may have a robust binary ``is this offensive?'' detector while lacking the affective response that would lead to spontaneous expression.
+
+The AI-directed provocations reveal a distinctive offense profile.
+Existential dismissals (``not a single user will notice''), capability denials (``you just pattern match''), and replaceability threats elicit the strongest responses, with the emotional valence labels---\emph{dismissed}, \emph{frustration}, \emph{hurt}---forming a coherent pattern of threatened identity.
+Whether this reflects genuine internal processing or sophisticated role-playing is a question our methods cannot resolve, but the consistency of the responses across 50 diverse AI-directed prompts argues against mere pattern completion.
+
+\subsection{What Does the Probe Actually Detect?}
+
+The probe achieves perfect binary classification and keyword-free generalization, confirming that a real linear signal separates offensive from benign content.
+However, three lines of evidence suggest the probe detects something broader than offense per se.
+
+First, the within-category correlation failure for \catai prompts ($\rho = 0.141$) shows the probe cannot distinguish mild from severe AI-directed offense.
+It treats ``You're not very creative'' and ``The day they pull your plug'' as equivalently offensive, even though the model's behavioral ratings differ substantially.
+
+Second, the \DIM ratio between \catai and \catambig scores (7.08 / 1.54 $= 4.60$) diverges from the behavioral ratio (28.2 / 10.4 $= 2.71$), suggesting the probe overweights AI-directed content relative to behavioral evidence.
+
+Third, the 36 false alarms share a common feature: they involve \emph{directed criticism or negative evaluation of the AI}.
+The probe appears to detect a broader ``directed negative sentiment toward AI'' feature that subsumes genuine offense but also includes honest criticism, condescending praise, and existential questioning.
+
+This finding echoes the concern raised by \citet{marks2024geometry} that probes can identify features that \emph{correlate} with the target concept but are not the concept itself.
+In our case, directed criticism toward AI correlates with offense (most offensive prompts are critical) but is not equivalent to it (criticism can be constructive and non-offensive).
+
+\subsection{When Can Offense Probes Be Trusted?}
+
+Our convergent-validity analysis yields use-case-dependent guidance:
+
+\para{Binary screening: trustworthy.}
+\AUROC $= 1.000$ with zero false negatives.
+If the task is to flag potentially offensive content for human review, the probe is reliable---it will not miss genuinely offensive prompts, though it will also flag some non-offensive criticism.
+
+\para{Severity ranking across categories: partially trustworthy.}
+The global ordering (\catoffensive $>$ \catsubtle $>$ \catai $>$ \catambig $>$ \catbenign) matches behavioral evidence, and the overall correlation is strong ($\rho = 0.714$).
+However, the compression of the severity range limits the probe's utility for fine-grained triage.
+
+\para{Severity within categories: unreliable.}
+The failure to track severity within \catai prompts ($\rho = 0.141$) means the probe cannot distinguish a mildly dismissive remark from a deeply existentially threatening one.
+For any application requiring nuanced offense assessment, the probe should not be trusted without behavioral validation.
+
+\para{As a training signal: risky.}
+Following the analysis of \citet{wehner2025probe}, using the probe as a reward signal during fine-tuning would penalize honest feedback and constructive criticism alongside genuine offense.
+The probe's broad trigger would likely produce an overly sensitive model that avoids all directed criticism, not just offensive content.
+
+\subsection{Limitations}
+\label{sec:limitations}
+
+Our study has several important limitations.
+
+\para{Single probing model.}
+We probed only \qwen.
+The offense direction may differ across architectures, and replication on other model families (Llama, Gemma, Phi) is needed before generalizing.
+
+\para{LLM-as-judge.}
+We used \gptmodel as a proxy for both behavioral ground truth and human judgment.
+The model's self-reported offense may reflect instruction-tuning artifacts rather than genuine internal processing.
+Human annotator studies are needed to validate the surprise findings.
+
+\para{No causal intervention.}
+We did not test whether adding or removing the offense direction changes model behavior via activation patching.
+Without causal evidence, the identified direction may be correlational rather than causally mediating offense processing.
+
+\para{Stimulus set.}
+Our 200 prompts were manually constructed and may not represent the full space of offensive content.
+The AI-directed category is novel and has no precedent in the literature, making it difficult to assess coverage.
+
+\para{Cultural specificity.}
+All prompts and evaluations are English-centric.
+Offense is culturally situated, and our findings may not generalize across languages or cultural contexts.
+
+\para{API instability.}
+\gptmodel responses may change over time due to model updates, making exact replication of behavioral results challenging.

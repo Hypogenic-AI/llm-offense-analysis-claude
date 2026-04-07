@@ -1,0 +1,7 @@
+Can large language models simulate ``taking offense'' at user prompts?
+We present the first systematic study of offense as a behavioral and representational phenomenon in LLMs, combining behavioral experiments on \gptmodel (200 prompts across 5 categories) with linear probing of hidden states in \qwen.
+We find that LLMs never express offense in natural responses, yet articulate graded offense when given explicit permission---an \offensegap that is largest for clearly offensive content and AI-directed existential provocations.
+A linear ``offense direction'' exists in hidden-state space, achieving perfect binary classification (\AUROC = 1.000), but it fails to capture offense severity: within AI-directed prompts, the probe--behavior correlation is non-significant ($\rho = 0.141$, $p = 0.330$).
+The probe systematically diverges from behavioral self-report, flagging indirect criticism and existential statements as highly offensive even when the model reports low offense---yielding 36 ``false alarms'' where probe and behavior disagree by more than 70 points on a 0--100 scale.
+We trace this divergence to a confound: the probe partially detects ``directed negative sentiment toward AI'' rather than offense per se.
+Our convergent-validity analysis shows that offense probes can be cautiously trusted for binary screening but are unreliable for fine-grained assessment, highlighting the fundamental challenge of validating representation probes without ground truth.

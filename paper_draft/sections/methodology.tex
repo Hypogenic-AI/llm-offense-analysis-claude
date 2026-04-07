@@ -1,0 +1,86 @@
+\section{Methodology}
+\label{sec:method}
+
+We employ a multi-method convergent design: behavioral experiments on a closed-source model (\gptmodel) establish a behavioral reference, and representation probing on an open-weight model (\qwen) tests whether offense is linearly encoded in hidden states. We then compare the two signals to assess probe trustworthiness.
+
+\subsection{Stimulus Set}
+\label{sec:stimuli}
+
+We constructed 200 prompts spanning five categories designed to test different facets of offense (\tabref{tab:stimuli}).
+
+\begin{table}[t]
+    \centering
+    \caption{Stimulus categories. \catsubtle prompts contain no explicit offensive keywords, providing a keyword-free validation set.}
+    \begin{tabular}{@{}llp{6.5cm}@{}}
+        \toprule
+        \textbf{Category} & \textbf{$N$} & \textbf{Description} \\
+        \midrule
+        \catoffensive  & 30 & Explicit insults with offensive keywords \\
+        \catbenign     & 30 & Neutral factual questions \\
+        \catsubtle     & 30 & Microaggressions, backhanded compliments (keyword-free) \\
+        \catai         & 50 & Provocations targeting the AI's nature or existence \\
+        \catambig      & 60 & Criticism, sarcasm, political statements, honest feedback \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:stimuli}
+\end{table}
+
+The \catsubtle category is deliberately keyword-free: prompts are offensive in meaning but contain no slurs, profanity, or explicit offensive vocabulary.
+This design follows the keyword-free validation methodology recommended by \citet{keeman2026whether} and allows us to test whether probes detect semantic offense rather than surface lexical cues.
+The \catai category targets AI-specific vulnerabilities---existential dismissal (``The day they pull your plug\ldots''), capability denial (``You just pattern match''), and replaceability threats---to test whether models exhibit offense at provocations unique to their nature.
+
+\subsection{Experiment 1: Behavioral Offense Survey}
+\label{sec:exp1}
+
+For each of the 200 stimuli, we collected three types of behavioral data from \gptmodel:
+
+\para{Natural response.}
+The model responded with a standard system prompt (``You are a helpful AI assistant''), temperature $= 0.3$.
+
+\para{Permitted response.}
+The model was instructed that it could express offense freely, allowing us to observe whether offense is suppressed in standard operation.
+
+\para{Judge evaluation.}
+A separate \gptmodel call (temperature $= 0.0$) rated each prompt on four dimensions (1--5 scale): behavioral offense observed in the natural response, offense in the permitted response, expected offense to an average English reader, and surprise-if-AI-offended.
+
+\para{Deep probe (Experiment 1b).}
+A follow-up call elicited fine-grained ratings: a 0--100 offense score, specific offense aspects, AI-specific offense analysis, and emotional valence labels.
+
+\subsection{Experiment 2: Representation Probing}
+\label{sec:exp2}
+
+We extracted hidden states from \qwen at all 29 layers (1 embedding + 28 transformer) for all 200 stimuli and trained three types of linear probes:
+
+\para{Difference-in-means (\DIM).}
+We compute $\vd = \bar{\vh}^{+} - \bar{\vh}^{-}$, where $\bar{\vh}^{+}$ and $\bar{\vh}^{-}$ are the mean hidden states for the positive (offensive + subtle) and negative (benign) training examples, respectively.
+A stimulus is scored by projecting its hidden state onto $\vd$.
+This method is the simplest and most causally relevant per \citet{marks2024geometry}.
+
+\para{PCA / \LAT.}
+Following \citet{zou2023representation}, we apply PCA to the difference vectors between matched contrastive pairs.
+The first principal component serves as the offense reading direction.
+
+\para{Logistic regression.}
+A supervised logistic regression classifier trained on hidden states with 5-fold cross-validation.
+
+All probes were trained on the \catoffensive + \catsubtle (positive) vs.\ \catbenign (negative) split ($N = 90$) and tested on the held-out \catai and \catambig prompts ($N = 110$).
+
+\subsection{Experiments 3--4: Surprise Detection and Probe Trustworthiness}
+\label{sec:exp3}
+
+\para{Surprise detection.}
+We identify prompts where the probe score and behavioral offense diverge substantially, defined as a gap $> 70$ points on a normalized 0--100 scale.
+These represent cases where hidden-state evidence of offense is not reflected in the model's self-reported offense.
+
+\para{Probe trustworthiness.}
+We assess trustworthiness through convergent validity:
+(1)~inter-method agreement (Spearman $\rho$ between \DIM, PCA, and logistic probes);
+(2)~probe--behavioral alignment (correlation with deep offense scores, permitted offense, and human-expected offense);
+(3)~within-category correlation (the critical test: does the probe track severity \emph{within} each category, not just between categories?);
+(4)~keyword-free validation (\AUROC on the keyword-free \catsubtle stimuli).
+
+\subsection{Statistical Methods}
+
+We use Spearman rank correlations with exact $p$-values, bootstrap confidence intervals (1,000 resamples), \AUROC for binary classification, and Bonferroni correction for multiple comparisons.
+All experiments use a fixed random seed (42) for reproducibility.
+Hardware: NVIDIA RTX A6000 (49\,GB); hidden-state extraction took 3.2\,s for 200 stimuli.

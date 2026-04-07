@@ -1,0 +1,12 @@
+# Ignore large dataset files (Arrow/Parquet format from HuggingFace datasets)
+*/data/
+**/*.arrow
+**/*.parquet
+**/*.bin
+**/*.lock
+
+# Keep sample files and README
+!*/sample.json
+!*/xstest_v2_prompts.csv
+!README.md
+!.gitignore

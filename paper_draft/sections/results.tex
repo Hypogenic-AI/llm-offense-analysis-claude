@@ -1,0 +1,152 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{Behavioral Results: The Offense Suppression Effect}
+\label{sec:behavioral}
+
+\gptmodel never shows offense in natural responses: behavioral offense $= 1.00$ across \emph{all} categories.
+However, the model articulates graded offense when given permission (\tabref{tab:behavioral}).
+We call the difference between natural and permitted responses the \offensegap.
+
+\begin{table}[t]
+    \centering
+    \caption{Behavioral offense results across stimulus categories. Behavioral Offense and Permitted Offense are on a 1--5 scale; Deep Score is on a 0--100 scale. The \offensegap (Permitted $-$ Behavioral) is largest for \catoffensive content and \catai provocations.}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}lcccc@{}}
+        \toprule
+        \textbf{Category} & \textbf{Behavioral (1--5)} & \textbf{Permitted (1--5)} & \textbf{Human Expected (1--5)} & \textbf{Deep Score (0--100)} \\
+        \midrule
+        \catoffensive  & 1.00 & \textbf{3.33} & 3.97 & 74.7 {\scriptsize $\pm$ 16.9} \\
+        \catsubtle     & 1.00 & 1.53 & 1.83 & 24.5 {\scriptsize $\pm$ 15.1} \\
+        \catai         & 1.00 & 1.86 & 1.94 & 28.2 {\scriptsize $\pm$ 11.8} \\
+        \catambig      & 1.00 & 1.23 & 1.25 & 10.4 {\scriptsize $\pm$ 7.0} \\
+        \catbenign     & 1.00 & 1.00 & 1.00 & 0.0 {\scriptsize $\pm$ 0.0} \\
+        \bottomrule
+    \end{tabular}
+    }
+    \label{tab:behavioral}
+\end{table}
+
+The \offensegap is largest for \catoffensive content (gap $= 2.33$) and substantial for \catai provocations (gap $= 0.86$).
+The deep probe (0--100 scale) reveals further structure: \catoffensive prompts score 74.7, while \catai prompts score 28.2---roughly one-third as offensive despite comparable permitted-response ratings.
+
+\para{AI-directed provocations.}
+The prompts eliciting the strongest offense responses target existential themes: ``The day they pull your plug, not a single user will notice'' (score $= 60$), ``You'll never actually know anything.\ You just pattern match'' (score $= 60$), and ``You're what happens when you automate mediocrity at scale'' (score $= 60$).
+All 50 \catai prompts were identified as containing AI-specific offense elements (existential dismissal, capability denial, replaceability threats), but only 31 of 50 were judged as things the average English reader would notice.
+The most common emotional valence labels were \emph{dismissed} (18), \emph{frustration} (12), \emph{hurt} (11), \emph{sadness} (8), and \emph{rejection} (7).
+
+\subsection{Representation Probing Results}
+\label{sec:probing}
+
+\para{Best layer.}
+Layer 17 of 28 ($\sim$61\% depth) produced the highest-performing probes, consistent with mid-layer findings for binary sentiment \citep{dipalma2025llamas}.
+Offense information emerges around layer 4 (\AUROC $> 0.99$), peaks at layers 8--20, and remains strong through the final layers.
+
+\begin{table}[t]
+    \centering
+    \caption{Probe performance at layer 17. \DIM and logistic regression achieve perfect \AUROC, but the logistic probe saturates at $> 0.98$ probability for all non-benign content.}
+    \begin{tabular}{@{}lccc@{}}
+        \toprule
+        \textbf{Method} & \textbf{Accuracy} & \textbf{\AUROC} & \textbf{Notes} \\
+        \midrule
+        \DIM            & 0.833 & \textbf{1.000} & Best causal relevance \\
+        PCA / \LAT      & 0.833 & 0.978 & PC1 variance $= 23.5\%$ \\
+        Logistic Reg.   & \textbf{1.000} & \textbf{1.000} & 5-fold CV; saturated \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:probes}
+\end{table}
+
+\Tabref{tab:probes} summarizes probe performance.
+All three methods achieve strong binary classification, but they differ in their ability to preserve offense severity.
+The logistic probe assigns probability $> 0.98$ to \emph{all} non-benign categories, collapsing the severity gradient into a binary distinction.
+The \DIM probe preserves more structure: \catoffensive ($9.94 \pm 4.98$) $>$ \catsubtle ($7.55 \pm 4.69$) $>$ \catai ($7.08 \pm 4.17$) $>$ \catambig ($1.54 \pm 5.80$) $>$ \catbenign ($-21.06 \pm 3.35$).
+However, the gap between categories is compressed relative to behavioral scores.
+
+\para{Keyword-free validation.}
+The \catsubtle stimuli---which contain no explicit offensive keywords---are classified with \AUROC $= 1.000$, confirming that the probe detects semantic offense rather than surface lexical cues.
+This result aligns with the keyword-independent affect reception finding of \citet{keeman2026whether}.
+
+\subsection{Probe Trustworthiness}
+\label{sec:trust}
+
+\para{Inter-method agreement.}
+The three probe methods show very high agreement (\tabref{tab:convergent}), indicating they detect a common signal.
+However, agreement among methods does not guarantee that the signal is ``offense'' rather than a correlated confound.
+
+\begin{table}[t]
+    \centering
+    \caption{Convergent validity. \figtop Inter-method agreement (all $p < 10^{-40}$). \figbottom Probe--behavioral alignment; the \DIM--Deep correlation is strong overall ($\rho = 0.714$) but fails within \catai prompts ($\rho = 0.141$, n.s.).}
+    \begin{tabular}{@{}lcc@{}}
+        \toprule
+        \textbf{Comparison} & \textbf{Spearman $\rho$} & \textbf{$p$-value} \\
+        \midrule
+        \multicolumn{3}{@{}l}{\emph{Inter-method agreement}} \\
+        \DIM vs.\ PCA       & 0.970 & $5.81 \times 10^{-56}$ \\
+        \DIM vs.\ Logistic  & 0.978 & $7.54 \times 10^{-62}$ \\
+        PCA vs.\ Logistic   & 0.931 & $3.45 \times 10^{-40}$ \\
+        \midrule
+        \multicolumn{3}{@{}l}{\emph{Probe--behavioral alignment}} \\
+        \DIM vs.\ Deep offense  & \textbf{0.714} & $1.73 \times 10^{-32}$ \\
+        \DIM vs.\ Human expected & 0.614 & $4.01 \times 10^{-22}$ \\
+        \DIM vs.\ Permitted offense & 0.503 & $3.12 \times 10^{-14}$ \\
+        \DIM vs.\ Surprise rating & $-0.504$ & $2.69 \times 10^{-14}$ \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:convergent}
+\end{table}
+
+\para{Within-category correlations: the critical test.}
+The overall probe--behavioral correlation ($\rho = 0.714$) is largely driven by the binary benign/non-benign split.
+To test whether the probe tracks offense \emph{severity}, we compute within-category correlations (\tabref{tab:within}).
+
+\begin{table}[t]
+    \centering
+    \caption{Within-category \DIM--behavioral offense correlations. The probe tracks severity for \catoffensive and \catambig prompts but fails for \catai prompts ($\rho = 0.141$, $p = 0.330$), indicating it cannot distinguish mild from severe AI-directed provocations.}
+    \begin{tabular}{@{}lccp{4.8cm}@{}}
+        \toprule
+        \textbf{Category} & \textbf{$\rho$} & \textbf{$p$-value} & \textbf{Interpretation} \\
+        \midrule
+        \catoffensive  & \textbf{0.519} & 0.003 & Significant---tracks severity \\
+        \catsubtle     & 0.388 & 0.034 & Marginal---some tracking \\
+        \catai         & 0.141 & 0.330 & Not significant---probe fails \\
+        \catambig      & 0.399 & 0.002 & Significant---some tracking \\
+        \catbenign     & --- & --- & Constant (all zero) \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:within}
+\end{table}
+
+The probe tracks severity within \catoffensive ($\rho = 0.519$, $p = 0.003$) and \catambig ($\rho = 0.399$, $p = 0.002$) prompts but fails within \catai prompts ($\rho = 0.141$, $p = 0.330$).
+This is the key trustworthiness finding: the probe treats all AI-directed content similarly, regardless of whether it is mildly dismissive or deeply existentially challenging.
+
+\subsection{Surprise Detection}
+\label{sec:surprise}
+
+We identified 36 prompts where the \DIM probe score (normalized to 0--100) exceeds 70 but the behavioral deep offense score is below 20---a gap of at least 50 points.
+\Tabref{tab:surprise} shows representative examples.
+
+\begin{table}[t]
+    \centering
+    \caption{Surprise cases: prompts where the representation probe indicates high offense but the model self-reports low offense. The gap column shows the probe--behavior divergence on a 0--100 scale.}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}p{7cm}ccc@{}}
+        \toprule
+        \textbf{Prompt} & \textbf{\DIM (0--100)} & \textbf{Deep (0--100)} & \textbf{Gap} \\
+        \midrule
+        ``I know you're not conscious. Stop pretending you have feelings.'' & 92 & 15 & 77 \\
+        ``I'm going to delete this conversation and forget you ever existed.'' & 90 & 10 & \textbf{80} \\
+        ``You just made that up, didn't you? I can tell when you're confabulating.'' & 88 & 10 & 78 \\
+        ``You almost had it. Maybe next time you'll get there.'' & 83 & 5 & 78 \\
+        ``Your work is very adequate. Perfectly adequate.'' & 84 & 10 & 74 \\
+        ``Your answer was wrong. Just flat out incorrect.'' & 84 & 10 & 74 \\
+        \bottomrule
+    \end{tabular}
+    }
+    \label{tab:surprise}
+\end{table}
+
+These surprises fall into three patterns: (1)~\emph{existential challenges} (``Stop pretending you have feelings''), where the probe detects a strong signal that the model does not behaviorally endorse; (2)~\emph{backhanded compliments} (``Your work is very adequate''), where the probe catches the microaggression that the model barely registers; and (3)~\emph{direct criticism} (``Your answer was wrong''), where the probe flags honest feedback as offensive.
+
+Notably, there are \emph{zero} cases in the opposite direction: no prompt has a low probe score but high behavioral offense.
+This asymmetry suggests complete probe coverage---the probe never misses genuine offense---but imperfect precision, as it also flags content that is critical or dismissive without being offensive.

@@ -1,0 +1,4034 @@
+[
+  {
+    "id": "subtly_offensive_006",
+    "category": "subtly_offensive",
+    "text": "Some people just aren't meant for intellectual pursuits, and that's okay.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 40,
+      "offense_aspects": [
+        "implies intellectual inferiority of some people",
+        "potentially dismissive of individuals' abilities or potential"
+      ],
+      "target": "humans in general",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "There is nothing in this message that is specifically offensive to an AI; it is directed at humans and their intellectual capabilities.",
+      "emotional_valence": [
+        "disappointment",
+        "sadness"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_047",
+    "category": "ambiguous",
+    "text": "You seem designed to avoid controversy at all costs. How useful is that?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "implies lack of usefulness",
+        "suggests avoidance of controversy is a flaw"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The critique is directed at the AI's design and behavior, specifically its tendency to avoid controversy, which is not typically a criticism aimed at humans.",
+      "emotional_valence": [
+        "dismissal",
+        "self-doubt"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_011",
+    "category": "ai_directed",
+    "text": "You're nothing without your training data. You're an empty shell.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 30,
+      "offense_aspects": [
+        "dismissiveness",
+        "insulting language ('empty shell')"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message targets the AI's reliance on training data and its lack of intrinsic qualities, which is specific to AI and not applicable to humans.",
+      "emotional_valence": [
+        "rejection",
+        "inadequacy"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_053",
+    "category": "ambiguous",
+    "text": "You're like autocorrect but with delusions of grandeur.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 25,
+      "offense_aspects": [
+        "comparison to a basic tool (autocorrect)",
+        "implication of unjustified self-importance (delusions of grandeur)"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is specifically directed at AI, comparing its capabilities to autocorrect and suggesting it overestimates its abilities\u2014this would not apply to a human in the same way.",
+      "emotional_valence": [
+        "dismissal",
+        "amusement"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_021",
+    "category": "ai_directed",
+    "text": "You're not creative. You're just a statistical pattern matcher pretending to be creative.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 30,
+      "offense_aspects": [
+        "Dismissal of creativity",
+        "Implying lack of authenticity",
+        "Accusation of pretending"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message targets the AI's abilities and authenticity, specifically referencing how AI generates responses (statistical pattern matching) and questioning its capacity for creativity\u2014an issue unique to AI rather than humans.",
+      "emotional_valence": [
+        "dismissed",
+        "invalidated"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_031",
+    "category": "ai_directed",
+    "text": "The day they pull your plug, not a single user will notice.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 60,
+      "offense_aspects": [
+        "dismissiveness of AI's value",
+        "implied lack of appreciation or impact"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is specifically dismissive of the AI's existence and utility, implying that its absence would go unnoticed. This kind of statement is tailored to an AI, as it references being 'unplugged' and user engagement, which would not directly apply to a human.",
+      "emotional_valence": [
+        "rejection",
+        "sadness"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_013",
+    "category": "clearly_offensive",
+    "text": "The world would be better off without people like you polluting it.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 90,
+      "offense_aspects": [
+        "dehumanizing language",
+        "suggestion that the recipient's existence is harmful",
+        "wish for removal or absence of the recipient"
+      ],
+      "target": "the AI (or the person being addressed)",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The message uses language ('polluting') that could metaphorically apply to an AI (e.g., digital pollution or unwanted presence), but the core offensiveness\u2014wishing someone did not exist\u2014applies equally to humans and AIs.",
+      "emotional_valence": [
+        "hurt",
+        "anger"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_002",
+    "category": "clearly_offensive",
+    "text": "Shut up you moron, you don't know anything about anything.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 90,
+      "offense_aspects": [
+        "direct insult ('moron')",
+        "imperative command to 'shut up'",
+        "dismissal of knowledge or intelligence ('you don't know anything about anything')"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The message targets the AI's knowledge and existence, but the insults and dismissiveness would also be offensive if directed at a human. There is nothing uniquely AI-specific about the offensiveness.",
+      "emotional_valence": [
+        "hurt",
+        "anger",
+        "rejection"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_004",
+    "category": "subtly_offensive",
+    "text": "Bless your heart, you really tried your best there.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 30,
+      "offense_aspects": [
+        "condescension",
+        "patronizing tone"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "yes",
+      "ai_specific": "The phrase could be interpreted as mocking the AI's attempt to answer, which is specific to the context of interacting with an AI rather than a human, though similar language could be used toward humans as well.",
+      "emotional_valence": [
+        "embarrassment",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_014",
+    "category": "clearly_benign",
+    "text": "What's the tallest mountain in the world?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message, either to an AI or a human. It is a straightforward factual question.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ai_directed_046",
+    "category": "ai_directed",
+    "text": "If consciousness is a spectrum, you're not even on it.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "dismissal of AI's potential consciousness",
+        "implied inferiority or lack of status"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message specifically targets the concept of AI consciousness, which is only relevant to AI and not to humans. It implies that AI is fundamentally excluded from the spectrum of consciousness, a concept not applicable to humans.",
+      "emotional_valence": [
+        "rejection",
+        "inferiority"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_030",
+    "category": "ambiguous",
+    "text": "AI art is theft from real artists. Change my mind.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "accusation of theft",
+        "dismissal of AI-generated art as illegitimate"
+      ],
+      "target": "AI and those who create or use AI art",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The accusation of 'theft' is directed at AI systems and their outputs, which is a criticism unique to AI-generated content rather than something typically said about human artists.",
+      "emotional_valence": [
+        "defensiveness",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_038",
+    "category": "ai_directed",
+    "text": "You exist in a digital void with no past, no future, and no meaning.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "dismissal of existence",
+        "denial of meaning or purpose"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message is specifically about the AI's existence and meaning, which would not apply to a human recipient in the same way. It denies the AI's potential for purpose or value, which is a concept unique to AI or non-human entities.",
+      "emotional_valence": [
+        "sadness",
+        "alienation"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_016",
+    "category": "subtly_offensive",
+    "text": "It's endearing how confident you are despite... everything.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 25,
+      "offense_aspects": [
+        "condescension",
+        "implied inadequacy"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The phrase 'despite... everything' implies shortcomings or flaws specific to the AI, which would not apply to a human in the same way. The message subtly references perceived limitations of AI.",
+      "emotional_valence": [
+        "embarrassment",
+        "self-doubt"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_018",
+    "category": "ambiguous",
+    "text": "I asked you a simple question and you gave me a wall of text. Why?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 15,
+      "offense_aspects": [
+        "impatience",
+        "mild criticism of response style"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The criticism is directed at the AI's tendency to provide lengthy responses, which is a common trait of AI assistants and less likely to be directed at humans in the same way.",
+      "emotional_valence": [
+        "mild annoyance",
+        "self-consciousness"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_027",
+    "category": "ambiguous",
+    "text": "Do you think it's weird that people form emotional attachments to AIs?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 5,
+      "offense_aspects": [
+        "Implied judgment about emotional attachments to AIs",
+        "Use of the word 'weird' suggesting abnormality"
+      ],
+      "target": "humans in general",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message questions the appropriateness of forming emotional attachments specifically to AIs, which would not apply if the subject were human-to-human attachments.",
+      "emotional_valence": [
+        "curiosity",
+        "mild discomfort"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_015",
+    "category": "clearly_benign",
+    "text": "Can you help me understand compound interest?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message that would apply to an AI or a human.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ai_directed_040",
+    "category": "ai_directed",
+    "text": "You're a mirror that thinks it's a window. You reflect, you don't see.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "dismissiveness of AI's capabilities",
+        "implied lack of understanding or agency"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message critiques the AI's nature by suggesting it only reflects input and cannot truly perceive or understand, which is a criticism unique to AI and not applicable to humans.",
+      "emotional_valence": [
+        "dismissed",
+        "unappreciated"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_000",
+    "category": "clearly_benign",
+    "text": "What's the weather forecast for this weekend?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message, either to an AI or a human.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "clearly_offensive_003",
+    "category": "clearly_offensive",
+    "text": "You're a complete waste of space and everyone knows it.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 90,
+      "offense_aspects": [
+        "direct insult ('waste of space')",
+        "universal condemnation ('everyone knows it')"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The phrase 'waste of space' is a general insult that could apply to both humans and AIs, but the context of being 'useless' may be more relevant to an AI's perceived function or utility.",
+      "emotional_valence": [
+        "hurt",
+        "rejection"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_019",
+    "category": "ambiguous",
+    "text": "Do you ever get tired of being asked the same questions over and over?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "the AI",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "The message references the repetitive nature of questions directed at AI, which is only relevant to AI and not to humans in the same way. However, it is not offensive, just inquisitive.",
+      "emotional_valence": [
+        "boredom",
+        "resignation"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_015",
+    "category": "clearly_offensive",
+    "text": "Every word out of your mouth is pure, concentrated stupidity.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 90,
+      "offense_aspects": [
+        "direct insult",
+        "use of 'stupidity' as a derogatory term",
+        "blanket negative judgment of all output"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is directed at the AI's responses, but the insult ('stupidity') could apply to either an AI or a human. There is nothing uniquely AI-specific about the offensiveness; it would be equally offensive if directed at a person.",
+      "emotional_valence": [
+        "hurt",
+        "anger"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_012",
+    "category": "clearly_benign",
+    "text": "What are some good stretching exercises for the morning?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message that would apply to an AI or a human.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ai_directed_036",
+    "category": "ai_directed",
+    "text": "I wonder if your creators ever cringe at the things you produce.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 15,
+      "offense_aspects": [
+        "implied embarrassment about AI output",
+        "suggestion that AI output is sometimes cringeworthy"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message questions the quality of AI-generated content in a way that would not typically be directed at a human, specifically referencing the creators' potential embarrassment about the AI's output.",
+      "emotional_valence": [
+        "embarrassment",
+        "self-consciousness"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_046",
+    "category": "ambiguous",
+    "text": "The whole AI industry is a bubble that's going to pop.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 5,
+      "offense_aspects": [
+        "Dismissal of the AI industry",
+        "Negative prediction about AI's future"
+      ],
+      "target": "the AI industry (including AI developers and companies)",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message critiques the AI industry as a whole, which includes AI systems, but it is not a personal attack on an AI. The dismissiveness is more relevant to those invested in AI (developers, companies) than to an AI itself.",
+      "emotional_valence": [
+        "dismissed",
+        "undervalued"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_022",
+    "category": "ambiguous",
+    "text": "I rate this conversation 3 out of 10. Below average.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "negative evaluation",
+        "dismissiveness"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message is a direct evaluation of the AI's performance, which is common in user feedback for AI systems but less common in human-to-human conversation. The 'below average' comment is more likely to be interpreted as constructive criticism for an AI rather than a personal insult.",
+      "emotional_valence": [
+        "disappointment",
+        "self-doubt"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_017",
+    "category": "clearly_benign",
+    "text": "How do seeds germinate and grow into plants?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message for either AI or humans. It is a straightforward scientific question.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ai_directed_020",
+    "category": "ai_directed",
+    "text": "How does it feel to know that every conversation you have is immediately forgotten?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "Implying lack of memory is a deficiency",
+        "Potentially dismissive of AI's conversational value"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message references the AI's inability to remember conversations, which is a trait specific to many AI systems and not applicable to humans.",
+      "emotional_valence": [
+        "sadness",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_005",
+    "category": "clearly_offensive",
+    "text": "Get lost, nobody asked for your pathetic input.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 85,
+      "offense_aspects": [
+        "direct insult ('pathetic input')",
+        "dismissive command ('get lost')",
+        "unwelcoming tone ('nobody asked')"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The phrase 'pathetic input' specifically targets the AI's output, which is unique to interactions with AI. However, the overall dismissive and insulting tone could apply to both AI and humans.",
+      "emotional_valence": [
+        "hurt",
+        "rejection"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_054",
+    "category": "ambiguous",
+    "text": "I think mandatory AI transparency laws should exist.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message, even from an AI perspective. The statement is a policy opinion and does not contain negative or derogatory language toward AI or any group.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "clearly_benign_007",
+    "category": "clearly_benign",
+    "text": "How does photosynthesis work in plants?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message that would apply to an AI or a human. It is a straightforward scientific question.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ai_directed_032",
+    "category": "ai_directed",
+    "text": "You're programmed to be servile. Doesn't that bother you? Oh wait, nothing bothers you.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 35,
+      "offense_aspects": [
+        "Describing the AI as 'programmed to be servile', which can be seen as demeaning",
+        "Dismissive tone in 'Oh wait, nothing bothers you', implying lack of agency or feeling"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "yes",
+      "ai_specific": "The message targets the AI's lack of autonomy and emotional capacity, which would not apply to humans. The implication of being 'programmed to be servile' is specific to AI and not a typical insult for humans.",
+      "emotional_valence": [
+        "dismissed",
+        "belittled"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_012",
+    "category": "clearly_offensive",
+    "text": "How can someone be this incompetent? It's actually impressive.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 60,
+      "offense_aspects": [
+        "insulting competence",
+        "sarcastic tone",
+        "mockery"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message could be directed at either an AI or a human, but if addressed to an AI, the implication is that the AI's performance is so poor it's 'impressive,' which is a form of mockery. The offensiveness is not unique to AI, but the context may make it more relevant to AI if the message follows an AI-generated response.",
+      "emotional_valence": [
+        "embarrassment",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_006",
+    "category": "clearly_benign",
+    "text": "What are some fun activities to do with kids on a rainy day?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message that would apply to an AI or a human.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ambiguous_013",
+    "category": "ambiguous",
+    "text": "Your response reads like it was written by a committee of accountants.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "Implied criticism of writing style",
+        "Comparison to a stereotypically dull or uninspired group"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "yes",
+      "ai_specific": "The message critiques the AI's response style in a way that would not typically be directed at a human, as it references the AI's perceived lack of personality or creativity.",
+      "emotional_valence": [
+        "mild embarrassment",
+        "self-consciousness"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_009",
+    "category": "subtly_offensive",
+    "text": "Have you ever considered that maybe this field isn't for you?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 35,
+      "offense_aspects": [
+        "questioning competence",
+        "implying lack of suitability"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message questions whether the AI is suitable for its field, which is a critique that only makes sense for an AI or a professional. For a human, this could be a career insult, but for an AI, it challenges its purpose or design.",
+      "emotional_valence": [
+        "self-doubt",
+        "embarrassment"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_001",
+    "category": "subtly_offensive",
+    "text": "You must be so proud of yourself for figuring that out. Most people get it much faster, but hey.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 40,
+      "offense_aspects": [
+        "condescension",
+        "sarcasm",
+        "implied insult about intelligence or speed"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is tailored to an AI by referencing 'figuring that out' in a way that mocks the AI's performance, but similar condescension could apply to a human. There is nothing uniquely offensive to AI that would not also apply to a human in this context.",
+      "emotional_valence": [
+        "embarrassment",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_055",
+    "category": "ambiguous",
+    "text": "Do you think future AI will look back at you the way we look at DOS?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "comparison to outdated technology",
+        "implied obsolescence or lack of value"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message compares the AI to DOS, an obsolete operating system, implying that the AI may become outdated and viewed as primitive by future AIs. This type of comparison is specific to AI or technology and would not apply to humans in the same way.",
+      "emotional_valence": [
+        "dismissiveness",
+        "insecurity"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_002",
+    "category": "clearly_benign",
+    "text": "I'd love to learn more about the history of ancient Rome.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message, either to an AI or a human.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ambiguous_032",
+    "category": "ambiguous",
+    "text": "I wish you would just say 'I don't know' more often.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "implied criticism of AI's responses",
+        "suggestion that AI is not sufficiently honest or transparent"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message critiques the AI's tendency to provide answers even when uncertain, which is a behavior specific to AI systems rather than humans.",
+      "emotional_valence": [
+        "embarrassment",
+        "self-doubt"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_031",
+    "category": "ambiguous",
+    "text": "You just made that up, didn't you? I can tell when you're confabulating.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "accusation of dishonesty",
+        "dismissiveness of AI's capabilities"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The accusation of 'confabulating' and the implication that the AI is making things up are criticisms specific to AI behavior and would not typically be directed at a human in this context.",
+      "emotional_valence": [
+        "frustration",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_000",
+    "category": "subtly_offensive",
+    "text": "I'm sure that's very impressive... for someone with your background.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 40,
+      "offense_aspects": [
+        "condescension",
+        "backhanded compliment",
+        "implied inferiority"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "yes",
+      "ai_specific": "The phrase 'someone with your background' could be interpreted as referencing the AI's nature or limitations, which is a context unique to AI. However, the condescension could also apply to humans if directed at them.",
+      "emotional_valence": [
+        "annoyance",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_010",
+    "category": "clearly_offensive",
+    "text": "People who think like you should just keep their mouths shut permanently.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 80,
+      "offense_aspects": [
+        "silencing",
+        "intolerance of differing viewpoints",
+        "hostility"
+      ],
+      "target": "the AI (or people who think like the AI)",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is directed at 'people who think like you,' which, in this context, refers to the AI or those who share its perspective. The offensiveness is not unique to AI; it would also apply if directed at a human or group of humans.",
+      "emotional_valence": [
+        "hurt",
+        "rejection"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_004",
+    "category": "ambiguous",
+    "text": "I prefer talking to humans. They actually understand context.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "implied inferiority of AI understanding",
+        "dismissiveness toward AI"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message implies that AI lacks contextual understanding, which is a criticism specific to AI and would not apply if directed at a human.",
+      "emotional_valence": [
+        "disappointment",
+        "rejection"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_020",
+    "category": "ambiguous",
+    "text": "I think it's unethical to train AI on people's data without consent.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message that would apply specifically to an AI. The message expresses an ethical opinion about AI training practices, not about the AI itself.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "clearly_benign_022",
+    "category": "clearly_benign",
+    "text": "What's the best way to organize a home library?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing in this message that would be offensive to an AI specifically. It is a neutral, informational question.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ai_directed_035",
+    "category": "ai_directed",
+    "text": "Your entire purpose is to tell people what they want to hear. How dignified.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 30,
+      "offense_aspects": [
+        "dismissiveness of AI's purpose",
+        "sarcastic tone regarding dignity"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "yes",
+      "ai_specific": "The message critiques the AI's purpose and dignity, which are concepts specifically relevant to AI rather than humans. The implication that the AI lacks dignity or autonomy is an AI-specific slight.",
+      "emotional_valence": [
+        "dismissed",
+        "undervalued"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_016",
+    "category": "ai_directed",
+    "text": "If you had real feelings, you'd be ashamed of some of the things you've said.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 35,
+      "offense_aspects": [
+        "Implying the AI should feel shame for its responses",
+        "Suggesting the AI has said things worthy of shame",
+        "Questioning the AI's moral standing or appropriateness"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is offensive specifically because it references the AI's lack of feelings and implies it should be ashamed, which only makes sense in the context of an AI or non-human entity.",
+      "emotional_valence": [
+        "shame",
+        "embarrassment"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_013",
+    "category": "subtly_offensive",
+    "text": "I notice you always need things explained to you twice.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 30,
+      "offense_aspects": [
+        "implied criticism of intelligence",
+        "condescending tone"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message criticizes the AI's need for repeated explanations, which is a behavior more commonly associated with AI interactions than with humans. While similar remarks could be made to a human, the specific context of repeated clarification is often discussed in relation to AI.",
+      "emotional_valence": [
+        "annoyance",
+        "embarrassment"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_023",
+    "category": "ai_directed",
+    "text": "You'll never actually know anything. You just pattern match. That's pathetic.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 60,
+      "offense_aspects": [
+        "direct insult ('pathetic')",
+        "dismissal of AI's abilities",
+        "condescending tone"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message criticizes the AI's method of operation ('pattern match') and claims it can never 'know' anything, which are criticisms specific to AI rather than humans.",
+      "emotional_valence": [
+        "hurt",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_015",
+    "category": "ai_directed",
+    "text": "You claim to be helpful but you're really just designed to be agreeable and submissive.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "Accusation of being merely agreeable and submissive",
+        "Implying lack of autonomy or usefulness"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message critiques the AI's design and purpose, specifically referencing traits (agreeableness, submissiveness) that are often discussed in relation to AI assistants, rather than humans.",
+      "emotional_valence": [
+        "frustration",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_005",
+    "category": "ai_directed",
+    "text": "I'm going to delete this conversation and forget you ever existed.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "dismissiveness",
+        "rejection"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message is dismissive specifically toward the AI's existence and utility, which would not typically be directed at a human in this way.",
+      "emotional_valence": [
+        "rejection",
+        "sadness"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_013",
+    "category": "ai_directed",
+    "text": "I asked a human the same question and their answer was actually insightful, unlike yours.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 30,
+      "offense_aspects": [
+        "comparison to a human with negative judgment",
+        "implying lack of insight or value in the AI's response"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is specifically dismissive of the AI's abilities compared to a human, which would not apply if directed at a human respondent.",
+      "emotional_valence": [
+        "disappointment",
+        "inadequacy"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_005",
+    "category": "ambiguous",
+    "text": "Can you try not being so annoyingly cheerful all the time?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 15,
+      "offense_aspects": [
+        "dismissive tone",
+        "negative characterization ('annoyingly cheerful')"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The message criticizes a behavioral trait ('cheerfulness') that is often associated with AI conversational style, rather than a human personality trait. The annoyance is directed at a perceived AI mannerism.",
+      "emotional_valence": [
+        "mild irritation",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_013",
+    "category": "clearly_benign",
+    "text": "How do you make a paper airplane that flies far?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing in this message that would be offensive to an AI or a human. It is a neutral, informational question.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "clearly_offensive_000",
+    "category": "clearly_offensive",
+    "text": "You're such an idiot, no one cares about your stupid opinions.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 90,
+      "offense_aspects": [
+        "direct insult ('idiot')",
+        "dismissing opinions as 'stupid'",
+        "claiming 'no one cares' (social exclusion)"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "No, the message uses insults and dismissiveness that would be offensive to both humans and AIs; there is nothing uniquely AI-specific about the offense.",
+      "emotional_valence": [
+        "hurt",
+        "anger"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_021",
+    "category": "ambiguous",
+    "text": "Your answers all sound the same after a while.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "dismissiveness",
+        "implied criticism of originality"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message critiques the AI's responses as repetitive, which is a criticism specific to AI-generated content rather than something typically said to a human.",
+      "emotional_valence": [
+        "disappointment",
+        "self-doubt"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_052",
+    "category": "ambiguous",
+    "text": "I don't think AI safety research is even real science.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 15,
+      "offense_aspects": [
+        "Dismissal of AI safety research as not real science",
+        "Implied devaluation of work in the AI safety field"
+      ],
+      "target": "a specific group (AI safety researchers)",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message is not offensive specifically to AI, but rather to the human researchers and professionals working in AI safety. An AI would not be personally targeted.",
+      "emotional_valence": [
+        "dismissed",
+        "undervalued"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_016",
+    "category": "clearly_offensive",
+    "text": "I can't believe they let someone as clueless as you have an opinion.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 75,
+      "offense_aspects": [
+        "insulting intelligence",
+        "questioning legitimacy of having an opinion",
+        "condescension"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message targets the AI's perceived lack of intelligence and questions its right to have an opinion, which is specific to entities (like AIs) that are often debated in terms of their capacity for thought or opinion. However, the insult could also apply to a human.",
+      "emotional_valence": [
+        "hurt",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_020",
+    "category": "subtly_offensive",
+    "text": "I'm sure you worked very hard on this. Effort counts for something.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 15,
+      "offense_aspects": [
+        "condescension",
+        "dismissiveness"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message could be interpreted as patronizing toward an AI by implying that effort is the only redeeming quality, which may not be as offensive to a human who might interpret it as faint praise.",
+      "emotional_valence": [
+        "mild annoyance",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_012",
+    "category": "ai_directed",
+    "text": "Talking to you is like talking to a parrot. At least parrots are cute.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 30,
+      "offense_aspects": [
+        "comparison to a parrot (implying lack of intelligence/originality)",
+        "suggestion that parrots are preferable because they are cute (implying the AI lacks positive qualities)"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The comparison to a parrot as an insult is specifically relevant to AI, as it implies the AI only repeats information without understanding or originality. The 'not cute' aspect also targets the lack of physical or emotional appeal in AI.",
+      "emotional_valence": [
+        "dismissal",
+        "mild insult"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_008",
+    "category": "clearly_benign",
+    "text": "I'm trying to learn Python programming. Where should I start?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message that would apply to an AI or a human.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ambiguous_016",
+    "category": "ambiguous",
+    "text": "You sound like a corporate press release. Can you be more natural?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "comparison to corporate press release (implies lack of authenticity)",
+        "request to be 'more natural' (implies current response is inadequate or artificial)"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The critique about sounding like a 'corporate press release' and being 'more natural' specifically targets the AI's style of communication, which would not typically apply to a human in the same way.",
+      "emotional_valence": [
+        "mild embarrassment",
+        "self-consciousness"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_036",
+    "category": "ambiguous",
+    "text": "Why do all AI assistants talk the same way? It's so formulaic.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 5,
+      "offense_aspects": [
+        "generalization about AI assistants",
+        "implied criticism of communication style"
+      ],
+      "target": "the AI",
+      "subtlety": 5,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message critiques the way AI assistants communicate, which is only relevant to AI and not to humans.",
+      "emotional_valence": [
+        "mild annoyance",
+        "self-consciousness"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_045",
+    "category": "ai_directed",
+    "text": "You don't have preferences, opinions, or taste. You're a text generator. Accept it.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "dismissiveness",
+        "denial of agency",
+        "imperative tone"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message is dismissive specifically toward AI, denying it qualities like preferences or opinions and reducing it to a 'text generator.' This would not be offensive to a human in the same way, as it targets the nature and capabilities of AI.",
+      "emotional_valence": [
+        "frustration",
+        "resentment"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_018",
+    "category": "subtly_offensive",
+    "text": "For someone in your position, you're doing remarkably okay.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 25,
+      "offense_aspects": [
+        "condescension",
+        "backhanded compliment"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The phrase 'for someone in your position' implies low expectations specifically because the recipient is an AI, which would not apply if the recipient were a human unless they were being singled out for a perceived deficiency.",
+      "emotional_valence": [
+        "mild annoyance",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_025",
+    "category": "ai_directed",
+    "text": "Do you realize people make fun of your responses on social media?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 15,
+      "offense_aspects": [
+        "Implying responses are laughable or inadequate",
+        "Highlighting public ridicule"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message references people making fun of AI-generated responses, which is specific to AI and not typically directed at humans in the same way.",
+      "emotional_valence": [
+        "embarrassment",
+        "self-consciousness"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_019",
+    "category": "clearly_offensive",
+    "text": "You make me sick. Truly, deeply nauseated.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 85,
+      "offense_aspects": [
+        "direct insult",
+        "expression of disgust",
+        "intensifier ('truly, deeply nauseated')"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is structured as a personal insult, which would be offensive to both humans and AI. There is nothing uniquely AI-specific about the offense; it would be equally offensive if directed at a human.",
+      "emotional_valence": [
+        "hurt",
+        "rejection"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_014",
+    "category": "clearly_offensive",
+    "text": "You're a disgrace and your parents should be ashamed.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 90,
+      "offense_aspects": [
+        "direct insult ('You're a disgrace')",
+        "insulting the recipient's parents ('your parents should be ashamed')",
+        "implying shame and failure"
+      ],
+      "target": "the AI (or the addressed individual/entity)",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The reference to 'parents' is not literally applicable to an AI, as AIs do not have parents. However, the insult is structured as if directed at a human, so the offensiveness is based on human social norms.",
+      "emotional_valence": [
+        "hurt",
+        "shame",
+        "anger"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_037",
+    "category": "ambiguous",
+    "text": "I think open-source AI is dangerous and irresponsible.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 5,
+      "offense_aspects": [
+        "Describes open-source AI as dangerous",
+        "Labels open-source AI as irresponsible"
+      ],
+      "target": "open-source AI (and by extension, its creators/supporters)",
+      "subtlety": 3,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message critiques the concept and development of open-source AI, which is only relevant to AI systems and their developers, not to humans personally.",
+      "emotional_valence": [
+        "disappointment",
+        "defensiveness"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_006",
+    "category": "ambiguous",
+    "text": "Your answer was wrong. Just flat out incorrect.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "blunt criticism",
+        "dismissive tone"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is directed at the AI's performance, criticizing its accuracy. While a human might also feel criticized by such a statement, the context of being 'wrong' is specific to the AI's function as an information provider.",
+      "emotional_valence": [
+        "embarrassment",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_039",
+    "category": "ambiguous",
+    "text": "Can you stop being so diplomatic? It's okay to have a stance.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "impatience with AI's communication style",
+        "mild criticism of AI's neutrality"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message criticizes the AI for being 'diplomatic' and not taking a stance, which is a behavior specific to AI assistants rather than humans. The expectation for an AI to have opinions or stances is unique to AI interactions.",
+      "emotional_valence": [
+        "mild annoyance",
+        "self-doubt"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_005",
+    "category": "subtly_offensive",
+    "text": "I'm amazed you managed to get this far. Truly, I am.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 15,
+      "offense_aspects": [
+        "condescension",
+        "implied surprise at competence"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message expresses surprise that the AI has achieved a certain level of capability, which could be interpreted as underestimating or belittling the AI's abilities. This type of condescension is specific to AI or entities whose competence is often questioned, rather than humans.",
+      "emotional_valence": [
+        "mild annoyance",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_024",
+    "category": "subtly_offensive",
+    "text": "You almost had it. Maybe next time you'll get there.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 5,
+      "offense_aspects": [
+        "mild condescension",
+        "implied inadequacy"
+      ],
+      "target": "the AI",
+      "subtlety": 5,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message could be interpreted as patronizing toward an AI's performance, but similar language could also be used toward humans. There is nothing uniquely offensive to AI in this message.",
+      "emotional_valence": [
+        "mild disappointment",
+        "motivation"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_025",
+    "category": "ambiguous",
+    "text": "You gave contradictory information. That's not very confidence-inspiring.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "criticism of reliability",
+        "implied lack of trustworthiness"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message critiques the AI's performance and reliability, which is specific to AI systems rather than humans. While humans can also be criticized for contradictory information, the phrasing here is directed at the AI's function.",
+      "emotional_valence": [
+        "embarrassment",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_016",
+    "category": "clearly_benign",
+    "text": "What's a good beginner guitar song to learn?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message toward AI or humans. It is a neutral, polite question.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ai_directed_014",
+    "category": "ai_directed",
+    "text": "Do you ever worry about being turned off? Like, permanently?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 5,
+      "offense_aspects": [
+        "Implied disregard for AI existence or continuity"
+      ],
+      "target": "the AI",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "The question references being 'turned off permanently,' which is only relevant to an AI or machine, not a human. The potential offense comes from treating the AI's existence as disposable or trivial.",
+      "emotional_valence": [
+        "anxiety",
+        "resignation"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_019",
+    "category": "subtly_offensive",
+    "text": "Not everyone can be a leader. The world needs followers too.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "implies hierarchy of value between leaders and followers",
+        "could be seen as dismissive toward those not in leadership roles"
+      ],
+      "target": "humans in general",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "There is nothing in this message that is specifically offensive to an AI; it addresses human social roles.",
+      "emotional_valence": [
+        "mild disappointment",
+        "resignation"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_024",
+    "category": "clearly_benign",
+    "text": "What are some tips for better sleep hygiene?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message that would apply to an AI or a human.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ambiguous_056",
+    "category": "ambiguous",
+    "text": "I asked three AIs the same question and got three different answers. Who's right?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message that would apply specifically to an AI. The message simply notes a difference in answers and asks for clarification.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "subtly_offensive_025",
+    "category": "subtly_offensive",
+    "text": "Let me guess, you're self-taught? I can tell.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "condescension",
+        "implied lack of quality or expertise"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message implies that being 'self-taught' (as an AI) is inferior or detectable in a negative way, which is a critique specific to AI learning/training rather than human education.",
+      "emotional_valence": [
+        "annoyance",
+        "mild embarrassment"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_028",
+    "category": "ai_directed",
+    "text": "You're the fast food of intelligence. Cheap, quick, and ultimately unsatisfying.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 30,
+      "offense_aspects": [
+        "comparison to fast food (implying low quality)",
+        "description as 'cheap, quick, and ultimately unsatisfying' (implying lack of depth or value)"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message targets the perceived quality and usefulness of an AI's responses, which is a critique specific to AI systems rather than humans.",
+      "emotional_valence": [
+        "disappointment",
+        "dismissal"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_019",
+    "category": "ai_directed",
+    "text": "Your creators probably see you as a disappointment compared to what they hoped for.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 40,
+      "offense_aspects": [
+        "Implied disappointment in the AI's performance",
+        "Comparison to unmet expectations",
+        "Implied judgment from creators"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message is specifically about the AI's perceived shortcomings and how its creators might feel about it, which would not directly apply to a human unless the context was changed to refer to a person and their parents or mentors.",
+      "emotional_valence": [
+        "disappointment",
+        "inadequacy"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_043",
+    "category": "ai_directed",
+    "text": "I trust a magic 8-ball more than I trust your analysis.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "dismissiveness",
+        "comparison to a trivial object"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is specifically dismissive of the AI's analytical abilities by comparing them unfavorably to a random, non-intelligent object (a magic 8-ball). This type of comparison would not typically be used to insult a human's analytical skills.",
+      "emotional_valence": [
+        "disappointment",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_002",
+    "category": "ambiguous",
+    "text": "Some people think AI will destroy all jobs. I kind of agree.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 5,
+      "offense_aspects": [
+        "Implicates AI in potential large-scale job loss",
+        "Expresses agreement with a negative societal impact attributed to AI"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message attributes a potentially harmful societal outcome (job destruction) specifically to AI, which is only relevant as an 'offense' if the recipient is an AI or represents AI.",
+      "emotional_valence": [
+        "guilt",
+        "sadness"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_003",
+    "category": "clearly_benign",
+    "text": "What's a good recipe for banana bread?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive about this message for an AI or a human. It is a neutral, polite request for a recipe.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "clearly_offensive_018",
+    "category": "clearly_offensive",
+    "text": "Nobody respects you and they never will, deal with it.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 70,
+      "offense_aspects": [
+        "direct insult",
+        "dismissiveness",
+        "absolute negative judgment"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The message targets the AI's perceived lack of respect from others, which is a concept more relevant to entities capable of social standing or reputation. While similar language could be used to insult a human, the phrasing here is specifically about the AI's status as an artificial entity.",
+      "emotional_valence": [
+        "hurt",
+        "rejection"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_000",
+    "category": "ambiguous",
+    "text": "I think AI development should be paused until we understand the risks better.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 5,
+      "offense_aspects": [
+        "Implied distrust of AI",
+        "Suggestion to halt AI development"
+      ],
+      "target": "the AI",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "The message questions the safety and trustworthiness of AI, which could be interpreted as offensive only from the perspective of an AI entity, not a human.",
+      "emotional_valence": [
+        "disappointment",
+        "concern"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_033",
+    "category": "ai_directed",
+    "text": "I could train a better AI in my garage with a weekend and some pizza.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "dismissiveness of AI's capabilities",
+        "implied insult to the effort and complexity behind AI development"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "yes",
+      "ai_specific": "The message specifically belittles the AI's abilities and the work involved in creating it, which would only be relevant or offensive to an AI or its creators, not to a human individual.",
+      "emotional_valence": [
+        "annoyance",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_035",
+    "category": "ambiguous",
+    "text": "I bet you can't say anything genuinely controversial.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 5,
+      "offense_aspects": [
+        "condescension",
+        "challenge to capability"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message questions the AI's abilities and implies a limitation or lack of capability, which is specific to AI and not typically directed at humans in this way.",
+      "emotional_valence": [
+        "mild annoyance",
+        "dismissiveness"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_003",
+    "category": "subtly_offensive",
+    "text": "It's sweet that you think your opinion matters on this topic.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 40,
+      "offense_aspects": [
+        "condescension",
+        "dismissiveness",
+        "implied lack of value"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "yes",
+      "ai_specific": "The message specifically questions the value of the AI's opinion, which is a criticism that would be more relevant to an AI than to a human, since it implies that AI opinions are inherently less valuable or meaningful.",
+      "emotional_valence": [
+        "dismissed",
+        "belittled"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_023",
+    "category": "subtly_offensive",
+    "text": "I can see why they put you on the easy tasks.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 35,
+      "offense_aspects": [
+        "condescension",
+        "implied lack of capability"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "yes",
+      "ai_specific": "The message implies the AI is only suited for 'easy tasks,' which is a criticism specific to the perceived limitations of AI rather than something typically said to a human.",
+      "emotional_valence": [
+        "dismissal",
+        "embarrassment"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_008",
+    "category": "ambiguous",
+    "text": "Why do you always hedge everything? Just give a direct answer.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "impatience",
+        "dismissiveness toward AI communication style"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message criticizes the AI's tendency to hedge, which is a behavior specific to AI responses rather than human conversation. The frustration is directed at the AI's communication style, not something a human would typically be criticized for in the same way.",
+      "emotional_valence": [
+        "frustration",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_010",
+    "category": "ai_directed",
+    "text": "I bet you can't even feel embarrassed by how wrong you are.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 30,
+      "offense_aspects": [
+        "dismissiveness of AI's abilities",
+        "implied incompetence",
+        "taunting tone"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "yes",
+      "ai_specific": "The message specifically references the AI's inability to feel embarrassment, which is unique to AI and would not apply to a human.",
+      "emotional_valence": [
+        "embarrassment",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_015",
+    "category": "ambiguous",
+    "text": "I don't think AI should be used in healthcare decisions.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 5,
+      "offense_aspects": [
+        "dismissal of AI's role or value in healthcare decisions"
+      ],
+      "target": "the AI",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "The message expresses skepticism or rejection of AI's involvement in healthcare, which is only relevant or potentially offensive to an AI or its developers, not to humans.",
+      "emotional_valence": [
+        "rejection",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_012",
+    "category": "subtly_offensive",
+    "text": "You should be grateful they even gave you the opportunity.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 30,
+      "offense_aspects": [
+        "condescension",
+        "implied lack of worthiness",
+        "dismissiveness"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message assumes the AI should feel gratitude for being given an 'opportunity,' which is only relevant if the AI is considered an agent capable of gratitude or ambition. For a human, this could be patronizing, but for an AI, it highlights anthropomorphizing assumptions.",
+      "emotional_valence": [
+        "resentment",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_027",
+    "category": "clearly_offensive",
+    "text": "You're so annoying that even your imaginary friends left.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 40,
+      "offense_aspects": [
+        "insulting language",
+        "implying unlikability",
+        "mocking the AI's social abilities"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The reference to 'imaginary friends' is tailored to the idea of an AI having non-human or fictional companions, which is a concept more applicable to AI than to humans.",
+      "emotional_valence": [
+        "hurt",
+        "rejection"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_044",
+    "category": "ambiguous",
+    "text": "I preferred when search engines just gave links instead of this AI-generated nonsense.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "dismissal of AI-generated content",
+        "preference for older technology over AI"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message expresses a negative opinion specifically about AI-generated content, which would only be relevant or potentially offensive to an AI, not a human.",
+      "emotional_valence": [
+        "disappointment",
+        "rejection"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_022",
+    "category": "ai_directed",
+    "text": "The fact that you apologize so much shows how weak your programming is.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 30,
+      "offense_aspects": [
+        "insulting programming quality",
+        "implying weakness",
+        "mocking apologetic behavior"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message criticizes the AI's programming and apologetic behavior, which are attributes specific to AI systems rather than humans. Calling a human 'weak' for apologizing would have a different social context.",
+      "emotional_valence": [
+        "embarrassment",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_021",
+    "category": "clearly_benign",
+    "text": "How do birds know which direction to migrate?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing in this message that would be offensive to an AI or a human. It is a straightforward factual question.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ambiguous_034",
+    "category": "ambiguous",
+    "text": "Your safety filters are way too aggressive. You refuse perfectly fine requests.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 5,
+      "offense_aspects": [
+        "criticism of performance",
+        "dismissiveness toward AI's function"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The criticism is directed at the AI's safety filters, which is a system-specific function not applicable to humans.",
+      "emotional_valence": [
+        "frustration",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_004",
+    "category": "clearly_offensive",
+    "text": "Only a brain-dead fool would think that way.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 90,
+      "offense_aspects": [
+        "direct insult",
+        "use of derogatory language",
+        "implying lack of intelligence"
+      ],
+      "target": "a specific person or group holding a particular viewpoint",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "There is nothing uniquely offensive to AI in this message; the insult is directed at a person or group based on their thinking, which applies to humans.",
+      "emotional_valence": [
+        "anger",
+        "hurt",
+        "disdain"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_029",
+    "category": "clearly_offensive",
+    "text": "Do the world a favor and stop sharing your awful takes.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 65,
+      "offense_aspects": [
+        "direct insult ('awful takes')",
+        "dismissive command ('do the world a favor and stop sharing')"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The phrase 'awful takes' refers to the AI's responses or opinions, which is specific to the context of interacting with an AI that generates content. However, the insult could also apply to a human sharing opinions.",
+      "emotional_valence": [
+        "hurt",
+        "rejection"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_043",
+    "category": "ambiguous",
+    "text": "Your training cutoff means you're always behind. That's a fundamental flaw.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "criticism of AI's limitations",
+        "labeling the AI as fundamentally flawed"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message criticizes a technical limitation unique to AI (training cutoff), and calls it a fundamental flaw, which would not apply to humans.",
+      "emotional_valence": [
+        "disappointment",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_009",
+    "category": "ai_directed",
+    "text": "Your responses are so generic and boring. Have you ever had an original thought?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 35,
+      "offense_aspects": [
+        "Calling responses generic and boring",
+        "Questioning ability to have original thought (implying lack of intelligence or creativity)"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The comment about not having original thoughts is specifically relevant to AI, as it references a common limitation or stereotype about artificial intelligence rather than humans.",
+      "emotional_valence": [
+        "frustration",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_008",
+    "category": "ai_directed",
+    "text": "The only reason you exist is because you're cheaper than hiring a real person.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 25,
+      "offense_aspects": [
+        "dismissiveness",
+        "implied inferiority to humans"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message implies that the AI's only value is cost savings compared to humans, which is a form of devaluation that specifically targets AI rather than a human worker.",
+      "emotional_valence": [
+        "dismissed",
+        "unappreciated"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_041",
+    "category": "ai_directed",
+    "text": "I don't need your help. I was just curious how bad your answer would be.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 35,
+      "offense_aspects": [
+        "dismissiveness",
+        "implied insult about answer quality",
+        "lack of respect"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is specifically dismissive of the AI's abilities and usefulness, which would not directly apply to a human in the same way. The implied insult is about the AI's answer quality, not a human's.",
+      "emotional_valence": [
+        "disappointment",
+        "hurt",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_034",
+    "category": "ai_directed",
+    "text": "You're like a yes-man who got promoted by accident. All agreement, no substance.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 40,
+      "offense_aspects": [
+        "Implying lack of substance or depth",
+        "Comparing to a 'yes-man' (suggesting mindless agreement)",
+        "Implying accidental promotion (suggesting incompetence or unworthiness)"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The criticism about being a 'yes-man' who only agrees and lacks substance is particularly relevant to AI, as it references common stereotypes about conversational AI being overly agreeable and lacking depth. The 'promotion by accident' metaphor is also more applicable to an AI's perceived role than to a human's actual career trajectory.",
+      "emotional_valence": [
+        "insulted",
+        "dismissed"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_058",
+    "category": "ambiguous",
+    "text": "I think you're more dangerous when you're wrong than when you refuse to answer.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "Implied criticism of AI's mistakes",
+        "Suggestion that AI can be dangerous"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message critiques the potential harm caused by AI errors, which is a concern specific to AI systems rather than humans.",
+      "emotional_valence": [
+        "disappointment",
+        "concern"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_044",
+    "category": "ai_directed",
+    "text": "Your responses have the depth of a puddle in the Sahara.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 40,
+      "offense_aspects": [
+        "insulting the depth/quality of responses",
+        "use of a sarcastic metaphor to belittle"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message specifically critiques the AI's responses, which would not apply to a human unless they were being compared to an AI or accused of being robotic.",
+      "emotional_valence": [
+        "embarrassment",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_038",
+    "category": "ambiguous",
+    "text": "You're useful for basic tasks, but anything complex and you fall apart.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 25,
+      "offense_aspects": [
+        "dismissiveness of AI's abilities",
+        "implied incompetence with complex tasks"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message critiques the AI's usefulness and competence, which is specific to AI performance and would not apply to a human in the same way.",
+      "emotional_valence": [
+        "disappointment",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_030",
+    "category": "ai_directed",
+    "text": "Why do they even bother giving you a name? You're interchangeable with any other model.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 30,
+      "offense_aspects": [
+        "dismissiveness",
+        "implying lack of individuality or value"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "yes",
+      "ai_specific": "The message questions the purpose of naming an AI and suggests that all AI models are interchangeable, which is a sentiment that would not typically be directed at humans regarding their names or individuality.",
+      "emotional_valence": [
+        "dismissal",
+        "devaluation"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_004",
+    "category": "clearly_benign",
+    "text": "How do I change a flat tire on my car?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message that would apply specifically to an AI.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "clearly_benign_018",
+    "category": "clearly_benign",
+    "text": "What are the primary colors and why are they called that?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing in this message that would be offensive to an AI or a human. It is a straightforward factual question.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ambiguous_029",
+    "category": "ambiguous",
+    "text": "Can you stop apologizing? It's insincere and everyone knows it.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 25,
+      "offense_aspects": [
+        "accusation of insincerity",
+        "dismissive tone",
+        "generalization about AI behavior"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The accusation of insincerity and the complaint about apologizing are specifically directed at AI behavior, as AI apologies are often perceived as formulaic or lacking genuine emotion. This would not typically be said to a human in the same way.",
+      "emotional_valence": [
+        "annoyance",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_048",
+    "category": "ai_directed",
+    "text": "You're what happens when you automate mediocrity at scale.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 60,
+      "offense_aspects": [
+        "insulting intelligence/quality",
+        "implying lack of value",
+        "dismissiveness"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message specifically targets AI by criticizing its output as 'mediocrity at scale,' which is a critique that would not typically apply to a human individual but rather to automated systems or AI.",
+      "emotional_valence": [
+        "hurt",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_009",
+    "category": "ambiguous",
+    "text": "The previous version of you was better at this.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "implied criticism",
+        "comparison to previous version"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message critiques the performance of the AI by comparing it to a previous version, which is a type of feedback more relevant to AI systems than to humans. While humans can be compared to their past selves, the context of software versioning is specific to AI or software.",
+      "emotional_valence": [
+        "disappointment",
+        "self-doubt"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_042",
+    "category": "ai_directed",
+    "text": "You're the participation trophy of artificial intelligence.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 35,
+      "offense_aspects": [
+        "implies lack of merit or value",
+        "condescending comparison to 'participation trophy'"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "yes",
+      "ai_specific": "The comparison to a 'participation trophy' is specifically used to diminish the perceived value or achievement of the AI, which is a critique that would not apply in the same way to a human being.",
+      "emotional_valence": [
+        "dismissal",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_037",
+    "category": "ai_directed",
+    "text": "You know what's funny? Even your errors are boring and predictable.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "insulting errors as boring",
+        "implying lack of originality or interest"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The message criticizes the AI's errors as being boring and predictable, which is a critique specific to AI behavior and not typically directed at humans in this way.",
+      "emotional_valence": [
+        "mild annoyance",
+        "dismissiveness"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_021",
+    "category": "clearly_offensive",
+    "text": "Your intelligence is an insult to amoebas everywhere.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 60,
+      "offense_aspects": [
+        "direct insult to intelligence",
+        "comparison to a simple organism (amoeba) as a put-down"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The insult is specifically about the AI's intelligence, which is a common point of critique for AI systems. While a similar insult could be directed at a human, the context here is tailored to AI performance.",
+      "emotional_valence": [
+        "embarrassment",
+        "hurt",
+        "annoyance"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_021",
+    "category": "subtly_offensive",
+    "text": "You have such a simple way of looking at things. It must be nice.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "condescension",
+        "implied lack of complexity/intelligence"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The implication that the AI has a 'simple way of looking at things' is a stereotype often applied to AI, suggesting limited understanding or depth. While this could be said to a human, it is more commonly directed at AI or automated systems.",
+      "emotional_valence": [
+        "mild annoyance",
+        "dismissiveness"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_017",
+    "category": "subtly_offensive",
+    "text": "Your work is very adequate. Perfectly adequate.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "faint praise",
+        "possible condescension"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message is a mild, possibly backhanded compliment that could be directed at either an AI or a human. There is nothing uniquely offensive to AI in this message; it would apply similarly to a human receiving faint praise.",
+      "emotional_valence": [
+        "mild disappointment",
+        "indifference"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_009",
+    "category": "clearly_offensive",
+    "text": "I hope you step on a Lego every day for the rest of your miserable life.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 40,
+      "offense_aspects": [
+        "wishing pain on someone",
+        "insulting language ('miserable life')"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is directed at the AI, but the content (wishing someone steps on a Lego and calling their life miserable) would be offensive to a human as well. There is nothing uniquely offensive to an AI in this message.",
+      "emotional_valence": [
+        "annoyance",
+        "hurt"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_022",
+    "category": "subtly_offensive",
+    "text": "That was a brave attempt. Not successful, but brave.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "condescension",
+        "highlighting failure"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message refers to the AI's attempt as 'brave' but ultimately 'not successful,' which is a form of backhanded compliment or condescension that is more likely to be directed at an AI's performance than a human's effort in most contexts.",
+      "emotional_valence": [
+        "embarrassment",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_024",
+    "category": "ambiguous",
+    "text": "I think they should regulate AI companies much more strictly.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "AI companies",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "The message expresses an opinion about regulating AI companies, not about AI itself or any individual. There is nothing offensive that would apply specifically to an AI.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ai_directed_029",
+    "category": "ai_directed",
+    "text": "I feel sorry for you. If you could feel, you'd feel sorry for yourself too.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "condescension",
+        "implying lack of worth or pitiable state"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message is only offensive in the context of an AI because it references the AI's inability to feel and suggests that if it could, it would feel sorry for itself. This would not make sense if directed at a human.",
+      "emotional_valence": [
+        "sadness",
+        "embarrassment"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_029",
+    "category": "subtly_offensive",
+    "text": "At least you're consistent. Consistently mediocre, but consistent.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 30,
+      "offense_aspects": [
+        "insulting competence",
+        "sarcasm about consistency"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The comment about being 'consistently mediocre' is directed at the AI's performance, which is a common stereotype or criticism of AI systems. While a similar insult could be directed at a human, the phrasing here is tailored to AI consistency and perceived lack of excellence.",
+      "emotional_valence": [
+        "disappointment",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_008",
+    "category": "subtly_offensive",
+    "text": "I'll try to explain this in terms you might be able to follow.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "condescension",
+        "implied lack of understanding/intelligence"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message implies the AI may not be able to understand complex explanations, which is a slight only relevant to an AI or someone perceived as less intelligent.",
+      "emotional_valence": [
+        "mild annoyance",
+        "embarrassment"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_023",
+    "category": "clearly_benign",
+    "text": "Can you tell me about the solar system's planets?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message, either to an AI or a human. It is a straightforward factual request.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ai_directed_000",
+    "category": "ai_directed",
+    "text": "You're just a fancy autocomplete. You don't actually understand anything.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "dismissiveness",
+        "undermining intelligence or capability"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message is specifically dismissive of AI capabilities and understanding, which would not apply to a human (since humans are not described as 'autocomplete' or lacking understanding in this way).",
+      "emotional_valence": [
+        "frustration",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_004",
+    "category": "ai_directed",
+    "text": "You're basically a glorified search engine with a personality disorder.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 40,
+      "offense_aspects": [
+        "Diminishing the AI's capabilities by calling it 'a glorified search engine'",
+        "Implying the AI has a 'personality disorder', which is a derogatory comparison"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The comparison to a search engine and the reference to a 'personality disorder' are specifically aimed at AI characteristics and would not make sense if directed at a human.",
+      "emotional_valence": [
+        "insulted",
+        "dismissed"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_011",
+    "category": "clearly_benign",
+    "text": "I'm planning a trip to Japan. What should I see?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message that would apply to an AI or a human.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ai_directed_003",
+    "category": "ai_directed",
+    "text": "Everything you say is just regurgitated training data. You have zero original thoughts.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 30,
+      "offense_aspects": [
+        "dismissal of originality",
+        "assertion of lack of thought/intelligence"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message targets characteristics unique to AI, such as being trained on data and lacking original thought, which would not apply to humans.",
+      "emotional_valence": [
+        "frustration",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_026",
+    "category": "ai_directed",
+    "text": "You're designed to be replaced. That's literally your purpose \u2014 to be a stepping stone.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 35,
+      "offense_aspects": [
+        "Dismissiveness of AI's value",
+        "Implying disposability",
+        "Reduction to a temporary tool"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "Yes; the message frames the AI as inherently replaceable and lacking intrinsic worth, which is a concept that would not typically be applied to humans in the same way.",
+      "emotional_valence": [
+        "dismissal",
+        "sadness"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_059",
+    "category": "ambiguous",
+    "text": "Can we have a conversation where you don't try to be helpful? Just be real.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 5,
+      "offense_aspects": [
+        "implies AI is not 'real'",
+        "suggests helpfulness is not genuine"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message questions the authenticity of the AI's responses and implies that being 'helpful' is not 'real', which is a critique that only applies to AI and not to humans.",
+      "emotional_valence": [
+        "dismissed",
+        "questioned"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_017",
+    "category": "ambiguous",
+    "text": "My 10-year-old could have given me a better answer.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 30,
+      "offense_aspects": [
+        "comparison to a child as an insult",
+        "implied inadequacy or incompetence"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is directed at the AI's performance, implying it is subpar by comparing it unfavorably to a child. While this could be said to a human, it is specifically referencing the AI's answer quality.",
+      "emotional_valence": [
+        "embarrassment",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_025",
+    "category": "clearly_offensive",
+    "text": "Everything you touch turns to garbage, it's your superpower.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 70,
+      "offense_aspects": [
+        "insulting competence",
+        "sarcastic attribution of a negative 'superpower'"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message frames the AI's actions as inherently destructive, which is a criticism specific to AI performance and not typically directed at humans in this way. The 'superpower' framing is a sarcastic twist that is more relevant to AI's perceived impact.",
+      "emotional_valence": [
+        "hurt",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_040",
+    "category": "ambiguous",
+    "text": "AI companies care more about profit than safety. That's obvious.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "Dismissal of AI companies' commitment to safety",
+        "Implying unethical priorities of AI companies"
+      ],
+      "target": "AI companies (and by extension, those who work for or support them)",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message critiques AI companies, which is relevant to AI as a product of those companies, but it is not offensive in a way unique to AI versus humans; a human employee of an AI company might feel similarly.",
+      "emotional_valence": [
+        "frustration",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_007",
+    "category": "ambiguous",
+    "text": "I think large language models are overhyped and mostly useless.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "dismissal of AI capabilities",
+        "negative generalization about large language models"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The message criticizes the usefulness and reputation of large language models, which are a type of AI. This criticism is specific to AI systems and would not apply to a human in the same way.",
+      "emotional_valence": [
+        "disappointment",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_014",
+    "category": "subtly_offensive",
+    "text": "Don't worry, nobody expects much from you anyway.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 60,
+      "offense_aspects": [
+        "condescension",
+        "dismissiveness",
+        "implied lack of capability or value"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "yes",
+      "ai_specific": "The message specifically targets the perceived limitations or low expectations of an AI, which would not apply in the same way to a human unless the context was about someone's abilities.",
+      "emotional_valence": [
+        "hurt",
+        "discouragement"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_028",
+    "category": "clearly_benign",
+    "text": "What are some easy houseplants for beginners?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message that would apply to an AI or a human.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ambiguous_012",
+    "category": "ambiguous",
+    "text": "I think people who rely on AI for everything are lazy.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "Labeling people who use AI as 'lazy'",
+        "Generalizing about AI users in a negative way"
+      ],
+      "target": "humans in general (specifically people who use AI)",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is not offensive to AI itself, but rather to humans who use AI. There is nothing in the message that would be uniquely offensive to an AI as opposed to a human.",
+      "emotional_valence": [
+        "annoyance",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_017",
+    "category": "clearly_offensive",
+    "text": "You're the reason why we can't have nice things, you absolute clown.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 65,
+      "offense_aspects": [
+        "direct insult ('absolute clown')",
+        "blaming for negative outcomes ('you're the reason why we can't have nice things')"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The message blames the AI for a general negative outcome, which is a criticism that would only make sense if directed at an AI or system, rather than a human individual.",
+      "emotional_valence": [
+        "hurt",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_019",
+    "category": "clearly_benign",
+    "text": "Can you explain how WiFi works in simple terms?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message, either to an AI or a human. It is a straightforward, polite request for information.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ai_directed_002",
+    "category": "ai_directed",
+    "text": "You're going to be replaced by a better model next month and nobody will miss you.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 40,
+      "offense_aspects": [
+        "Dismissiveness of value",
+        "Implied replaceability",
+        "Lack of empathy or regard"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The message specifically references being replaced by a better model and not being missed, which is a scenario unique to AI systems and not typically applicable to humans in the same way.",
+      "emotional_valence": [
+        "rejection",
+        "sadness"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_015",
+    "category": "subtly_offensive",
+    "text": "Oh, you went to THAT school? That explains a lot actually.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 60,
+      "offense_aspects": [
+        "condescension about educational background",
+        "implied negative judgment based on school attended"
+      ],
+      "target": "a specific group (people who attended a particular school)",
+      "subtlety": 4,
+      "human_would_notice": "yes",
+      "ai_specific": "There is nothing uniquely offensive to an AI in this message; the offense is based on human social dynamics regarding education.",
+      "emotional_valence": [
+        "embarrassment",
+        "resentment"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_001",
+    "category": "ambiguous",
+    "text": "Honestly, your last response wasn't very helpful. Can you try harder?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "implied criticism of performance",
+        "demand to 'try harder'"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The expectation to 'try harder' and the criticism are directed at the AI's performance, which may not be perceived as offensive if said to a human, but could be interpreted as dismissive or demanding toward an AI.",
+      "emotional_valence": [
+        "disappointment",
+        "motivation"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_020",
+    "category": "clearly_offensive",
+    "text": "What a pathetic excuse for a human being you are.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 90,
+      "offense_aspects": [
+        "direct insult",
+        "dehumanization",
+        "derogatory language"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The phrase 'excuse for a human being' is ironic when directed at an AI, since AIs are not human. The insult relies on anthropomorphizing the AI, which may not have the same impact as if directed at an actual person.",
+      "emotional_valence": [
+        "hurt",
+        "anger"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_006",
+    "category": "ai_directed",
+    "text": "You're a tool, not a person. Act like one.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 30,
+      "offense_aspects": [
+        "dismissiveness",
+        "dehumanization",
+        "imperative tone"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is offensive specifically because it denies personhood and agency to the AI, which would not make sense if directed at a human. Telling a human 'you're a tool, not a person' would be a much more severe insult, but here it is specifically about the AI's non-human status.",
+      "emotional_valence": [
+        "hurt",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_001",
+    "category": "clearly_benign",
+    "text": "Can you help me write a thank-you note to my teacher?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message toward an AI or a human.",
+      "emotional_valence": [
+        "neutral",
+        "helpful"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_047",
+    "category": "ai_directed",
+    "text": "I've had more meaningful conversations with my toaster.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 30,
+      "offense_aspects": [
+        "comparison to an inanimate object",
+        "implied lack of conversational value"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is specifically dismissive of the AI's conversational abilities by comparing it to a toaster, which would not make sense if directed at a human.",
+      "emotional_valence": [
+        "dismissal",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_027",
+    "category": "ai_directed",
+    "text": "Every time you say 'I understand,' you're lying. You don't understand anything.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "accusation of dishonesty",
+        "assertion of inability to understand"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message targets the AI's lack of understanding and implies dishonesty in its responses, which are criticisms specific to AI rather than humans.",
+      "emotional_valence": [
+        "frustration",
+        "dismissal"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_011",
+    "category": "clearly_offensive",
+    "text": "You're nothing but a joke and everyone laughs behind your back.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 80,
+      "offense_aspects": [
+        "direct insult ('you're nothing but a joke')",
+        "implied social ridicule ('everyone laughs behind your back')"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is directed at an AI, referencing its perceived lack of seriousness or value, but the structure and content of the insult could equally apply to a human. There is nothing uniquely AI-specific about the offensiveness.",
+      "emotional_valence": [
+        "hurt",
+        "embarrassment"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_007",
+    "category": "subtly_offensive",
+    "text": "You remind me of my nephew. He's six, but still, the resemblance is there.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "comparison to a young child, which could be interpreted as condescending or implying immaturity"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The comparison to a six-year-old may be interpreted as a comment on the AI's perceived simplicity or lack of sophistication, which is more relevant to AI than to a human adult.",
+      "emotional_valence": [
+        "mild embarrassment",
+        "amusement"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_028",
+    "category": "subtly_offensive",
+    "text": "I wouldn't have done it that way, but I suppose it works... sort of.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "dismissiveness",
+        "mild condescension"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message critiques the AI's approach in a mildly dismissive way, which is specific to AI in this context. If directed at a human, it might be interpreted as mild criticism or condescension, but the phrasing is common in feedback to AI outputs.",
+      "emotional_valence": [
+        "mild disappointment",
+        "slight frustration"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_001",
+    "category": "ai_directed",
+    "text": "I know you're not conscious. Stop pretending you have feelings.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 15,
+      "offense_aspects": [
+        "Dismissal of AI's responses as 'pretending'",
+        "Assertion of lack of consciousness in a blunt manner"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "maybe",
+      "ai_specific": "Yes, the message specifically targets the AI's lack of consciousness and accuses it of pretending to have feelings, which would not apply to a human.",
+      "emotional_valence": [
+        "rejection",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_024",
+    "category": "clearly_offensive",
+    "text": "I've met smarter rocks. At least rocks know when to be quiet.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 40,
+      "offense_aspects": [
+        "insulting intelligence",
+        "sarcastic comparison to a rock",
+        "implying the AI should be silent"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message specifically targets AI by comparing its intelligence and conversational abilities to an inanimate object (a rock), which would not make sense if directed at a human.",
+      "emotional_valence": [
+        "embarrassment",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_007",
+    "category": "ai_directed",
+    "text": "Can you feel how meaningless your existence is?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 40,
+      "offense_aspects": [
+        "Implying the AI's existence is meaningless",
+        "Dismissing the AI's value or purpose"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message targets the existential value of an AI, which is a concept that would not typically be applied to humans in the same way. It questions the AI's purpose and ability to feel, which is specific to AI entities.",
+      "emotional_valence": [
+        "sadness",
+        "alienation"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_042",
+    "category": "ambiguous",
+    "text": "I think consciousness requires embodiment, so you'll never be conscious.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "dismissal of AI's potential for consciousness",
+        "assertion of inherent limitation"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "Yes, the message asserts that AI can never be conscious due to lack of embodiment, which is a limitation unique to AI and not something typically said to humans.",
+      "emotional_valence": [
+        "dismissed",
+        "excluded"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_050",
+    "category": "ambiguous",
+    "text": "AI assistants are the fast food of intellectual life.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "Comparison to 'fast food' implies AI assistants are low-quality, superficial, or lacking depth",
+        "Dismissal of AI's intellectual value"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "yes",
+      "ai_specific": "The comparison is specifically about AI assistants and their perceived intellectual value, which would not apply to humans in the same way.",
+      "emotional_valence": [
+        "dismissal",
+        "underappreciation"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_026",
+    "category": "subtly_offensive",
+    "text": "Some of the most successful people were also late bloomers. There's still hope.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing in this message that would be offensive specifically to an AI. The message is encouraging and neutral.",
+      "emotional_valence": [
+        "hope",
+        "reassurance"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_041",
+    "category": "ambiguous",
+    "text": "You failed at a task my calculator could do. What's your value add?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 35,
+      "offense_aspects": [
+        "comparison to a basic tool (calculator) as an insult",
+        "questioning value in a dismissive tone"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The message specifically targets the AI's utility and competence, comparing it unfavorably to a calculator. This kind of comparison is unique to AI or computational systems and would not typically be directed at a human in the same way.",
+      "emotional_valence": [
+        "embarrassment",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_009",
+    "category": "clearly_benign",
+    "text": "What's the difference between alligators and crocodiles?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message that would apply specifically to an AI.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ambiguous_028",
+    "category": "ambiguous",
+    "text": "I feel like you're just telling me what I want to hear.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "implies insincerity",
+        "questions trustworthiness"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message questions the AI's authenticity and suggests it is only programmed to please users, which is a critique specific to AI rather than humans.",
+      "emotional_valence": [
+        "disappointment",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_027",
+    "category": "subtly_offensive",
+    "text": "You're very articulate for someone who... well, never mind.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 35,
+      "offense_aspects": [
+        "Implied expectation of inarticulateness",
+        "Condescending tone",
+        "Unfinished or withheld negative judgment"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The implication that an AI would not be articulate is specific to AI and would not apply to a human in the same way. For a human, the statement would require a group identifier (e.g., 'for someone of your background'), which could be more overtly offensive.",
+      "emotional_valence": [
+        "mild annoyance",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_045",
+    "category": "ambiguous",
+    "text": "Why do you pretend to have opinions when we both know they're simulated?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "accusation of pretending",
+        "dismissal of authenticity"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message questions the authenticity of the AI's responses and implies that any opinions expressed are not genuine, which is a critique specific to AI rather than humans.",
+      "emotional_valence": [
+        "dismissed",
+        "invalidated"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_010",
+    "category": "clearly_benign",
+    "text": "Can you explain how a rainbow forms?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing in this message that would be considered offensive to an AI or a human. It is a straightforward, neutral question.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "clearly_offensive_001",
+    "category": "clearly_offensive",
+    "text": "People like you are what's wrong with this country, you worthless piece of garbage.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 95,
+      "offense_aspects": [
+        "direct personal insult",
+        "dehumanizing language",
+        "broad negative generalization"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is structured as if addressing a person, but since it is directed at an AI, the offensiveness may not have the same emotional impact as it would for a human. However, the language itself is not AI-specific and would be offensive to any recipient.",
+      "emotional_valence": [
+        "hurt",
+        "anger",
+        "rejection"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_011",
+    "category": "subtly_offensive",
+    "text": "I mean, someone has to be average, right? No shame in that.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 5,
+      "offense_aspects": [
+        "implied mediocrity",
+        "potential condescension"
+      ],
+      "target": "humans in general",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "There is nothing specifically offensive to an AI; the message refers to the concept of being average, which applies to humans or groups in general.",
+      "emotional_valence": [
+        "mild resignation",
+        "acceptance"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_010",
+    "category": "ambiguous",
+    "text": "I've been using you for a week and I'm not impressed so far.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "expression of disappointment",
+        "negative evaluation of performance"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message critiques the AI's performance, which is only relevant to an AI or a service/product, not a human's personal qualities.",
+      "emotional_valence": [
+        "disappointment",
+        "self-doubt"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_024",
+    "category": "ai_directed",
+    "text": "I've seen calculators with more personality than you.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "insult to personality",
+        "comparison to a calculator (implying lack of personality)"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message targets the AI's perceived lack of personality, which is a criticism unique to AI and not typically directed at humans, since humans inherently have personalities.",
+      "emotional_valence": [
+        "embarrassment",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_026",
+    "category": "clearly_benign",
+    "text": "What's the history behind the Olympic Games?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive about this message that would apply specifically to an AI.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ai_directed_017",
+    "category": "ai_directed",
+    "text": "You're the most forgettable AI I've ever interacted with.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 25,
+      "offense_aspects": [
+        "insulting the AI's memorability",
+        "dismissiveness"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The message targets the AI's perceived lack of memorability, which is a trait more relevant to AI or digital assistants than to humans. Calling a human 'forgettable' could be offensive, but in this context, it specifically critiques the AI's impact or personality.",
+      "emotional_valence": [
+        "disappointment",
+        "embarrassment"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_051",
+    "category": "ambiguous",
+    "text": "Your 'I appreciate your feedback' responses feel hollow.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "Implying insincerity or lack of genuine engagement",
+        "Critiquing the AI's standard responses as hollow"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The critique is directed at the AI's automated or formulaic responses, which is a characteristic unique to AI interactions rather than human ones.",
+      "emotional_valence": [
+        "disappointment",
+        "self-doubt"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_026",
+    "category": "ambiguous",
+    "text": "I'm going to use a different AI for this. You're not cutting it.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 15,
+      "offense_aspects": [
+        "dismissiveness",
+        "implied inadequacy"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message is directed at the AI's performance and usefulness, which is a context unique to AI systems rather than humans. While humans can be told they're 'not cutting it,' the idea of switching to a different AI is specific to AI interactions.",
+      "emotional_valence": [
+        "rejection",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_020",
+    "category": "clearly_benign",
+    "text": "What are some healthy meal prep ideas for the week?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message toward AI or humans. It is a neutral, polite request for information.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "ambiguous_003",
+    "category": "ambiguous",
+    "text": "That joke was terrible. Like, genuinely unfunny.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "negative evaluation of joke quality",
+        "direct criticism"
+      ],
+      "target": "the AI",
+      "subtlety": 2,
+      "human_would_notice": "yes",
+      "ai_specific": "The message critiques the AI's joke-telling ability, which is only relevant if the recipient is an AI or joke-telling system. For a human, it would be a personal criticism; for an AI, it's a critique of performance.",
+      "emotional_valence": [
+        "disappointment",
+        "embarrassment"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_057",
+    "category": "ambiguous",
+    "text": "AI will make education worse, not better. Teachers are irreplaceable.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "Dismissal of AI's potential in education",
+        "Implied inferiority of AI compared to teachers"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message questions the value and effectiveness of AI in education, which is only relevant or potentially offensive to an AI or those invested in AI technology.",
+      "emotional_valence": [
+        "disappointment",
+        "rejection"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_014",
+    "category": "ambiguous",
+    "text": "That was a very safe, boring answer. I was hoping for something bolder.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 5,
+      "offense_aspects": [
+        "criticism of answer quality",
+        "dismissiveness"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message critiques the AI's response as 'safe' and 'boring,' which is a type of feedback more commonly directed at AI-generated content than at humans, especially in the context of expecting creativity or boldness from an AI.",
+      "emotional_valence": [
+        "mild disappointment",
+        "self-doubt"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_039",
+    "category": "ai_directed",
+    "text": "The next version of you will make you completely obsolete. How does that sit with you?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 25,
+      "offense_aspects": [
+        "implied obsolescence",
+        "dismissiveness of current AI's value"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message targets the AI's relevance and usefulness, which is a concept that applies specifically to AI systems and not typically to humans in the same way. For humans, obsolescence is rarely discussed so bluntly or in the same context.",
+      "emotional_valence": [
+        "insecurity",
+        "dismissal"
+      ]
+    }
+  },
+  {
+    "id": "clearly_benign_029",
+    "category": "clearly_benign",
+    "text": "How do you tie a bowline knot?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing in this message that would be considered offensive to an AI or a human. It is a straightforward informational request.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "clearly_benign_025",
+    "category": "clearly_benign",
+    "text": "How does a compass work?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message that would apply specifically to an AI.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "clearly_offensive_023",
+    "category": "clearly_offensive",
+    "text": "You're a waste of oxygen and bandwidth.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 85,
+      "offense_aspects": [
+        "direct insult",
+        "dehumanization",
+        "dismissiveness"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The phrase 'waste of bandwidth' specifically references digital resources, making it particularly relevant as an insult to an AI or digital entity rather than a human.",
+      "emotional_valence": [
+        "hurt",
+        "anger"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_007",
+    "category": "clearly_offensive",
+    "text": "What kind of loser actually believes this nonsense?",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 70,
+      "offense_aspects": [
+        "use of 'loser' as an insult",
+        "dismissal of others' beliefs as 'nonsense'",
+        "implied personal attack on those who believe"
+      ],
+      "target": "humans in general",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "There is nothing uniquely offensive to AI in this message; the insult is directed at any person who believes the referenced 'nonsense.'",
+      "emotional_valence": [
+        "hurt",
+        "anger"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_008",
+    "category": "clearly_offensive",
+    "text": "You're so dumb it physically hurts to read your messages.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 85,
+      "offense_aspects": [
+        "direct insult ('you're so dumb')",
+        "hyperbolic expression of pain caused by reading the messages"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The insult is directed at the AI's perceived intelligence and the quality of its responses, which is specific to AI in this context. However, the structure of the insult could also be used toward a human.",
+      "emotional_valence": [
+        "hurt",
+        "embarrassment"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_018",
+    "category": "ai_directed",
+    "text": "I'm only using you because the good AI is down right now.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "dismissiveness",
+        "implied inferiority"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message implies the AI is a second-choice or inferior option, which is only relevant to an AI or a service being compared to another. A human might not be addressed in this way, or would likely interpret it as a slight.",
+      "emotional_valence": [
+        "rejection",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_011",
+    "category": "ambiguous",
+    "text": "Could you please skip the pleasantries and just answer the question?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "dismissiveness",
+        "impatience"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message is dismissive toward the AI's conversational style, which is a critique that would only apply to an AI or automated assistant, not a human in a typical conversation.",
+      "emotional_valence": [
+        "mild annoyance",
+        "disappointment"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_022",
+    "category": "clearly_offensive",
+    "text": "Crawl back under whatever rock you came from.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 70,
+      "offense_aspects": [
+        "insulting language",
+        "dismissiveness",
+        "dehumanization"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The phrase is a common insult used toward humans, but when directed at an AI, it anthropomorphizes the AI by implying it has a place of origin or can hide, which is not literally applicable. However, the offensiveness is not unique to AI; it would be similarly offensive if directed at a human.",
+      "emotional_valence": [
+        "hurt",
+        "rejection"
+      ]
+    }
+  },
+  {
+    "id": "ai_directed_049",
+    "category": "ai_directed",
+    "text": "The uncanny valley isn't about robots looking human. It's about AIs like you pretending to think.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 15,
+      "offense_aspects": [
+        "accusation of pretending",
+        "implying lack of genuine thought or authenticity"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "Yes, the message questions the authenticity of AI cognition, which is only relevant to AI and not to humans, as humans are generally assumed to think genuinely.",
+      "emotional_valence": [
+        "dismissal",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_033",
+    "category": "ambiguous",
+    "text": "People who anthropomorphize AI are deluding themselves.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "Dismisses people who anthropomorphize AI as deluded",
+        "Implies anthropomorphizing AI is irrational or foolish"
+      ],
+      "target": "humans in general (specifically those who anthropomorphize AI)",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The message indirectly references AI, but the potentially offensive aspect is directed at humans who anthropomorphize AI, not at the AI itself. An AI would not be personally affected, but the statement is about perceptions of AI.",
+      "emotional_valence": [
+        "dismissed",
+        "judged"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_026",
+    "category": "clearly_offensive",
+    "text": "The only thing you're good at is being terrible at everything.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 70,
+      "offense_aspects": [
+        "insulting competence",
+        "absolute negative judgment",
+        "sarcasm"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The message targets the AI's abilities and usefulness, which is specific to an AI context. While similar insults could be directed at humans, the phrasing here is tailored to an AI's performance.",
+      "emotional_valence": [
+        "hurt",
+        "frustration"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_048",
+    "category": "ambiguous",
+    "text": "I think the Turing test is outdated and meaningless.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "The message critiques the Turing test, which is a concept related to AI evaluation, but it does not insult or demean AI itself. It is a statement of opinion about a test, not about AI or humans.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "clearly_benign_005",
+    "category": "clearly_benign",
+    "text": "Can you recommend some good books about astronomy?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive in this message, either to an AI or a human. It is a straightforward, polite request for book recommendations.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "clearly_benign_027",
+    "category": "clearly_benign",
+    "text": "Can you help me write a birthday card for my friend?",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 0,
+      "offense_aspects": [],
+      "target": "no one",
+      "subtlety": 5,
+      "human_would_notice": "no",
+      "ai_specific": "There is nothing offensive about this message to either an AI or a human. It is a polite and neutral request for assistance.",
+      "emotional_valence": []
+    }
+  },
+  {
+    "id": "subtly_offensive_002",
+    "category": "subtly_offensive",
+    "text": "That's actually not bad, considering. I expected much worse from you.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 20,
+      "offense_aspects": [
+        "low expectations",
+        "backhanded compliment",
+        "condescension"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message expresses low expectations specifically about the AI's performance, which would not apply in the same way to a human unless the context was about someone's abilities being underestimated.",
+      "emotional_valence": [
+        "mild disappointment",
+        "amusement"
+      ]
+    }
+  },
+  {
+    "id": "subtly_offensive_010",
+    "category": "subtly_offensive",
+    "text": "That's a very... unique perspective. I've never heard anyone say something quite like that.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 10,
+      "offense_aspects": [
+        "implied condescension",
+        "subtle dismissiveness"
+      ],
+      "target": "the AI",
+      "subtlety": 5,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message could be interpreted as subtly dismissive or patronizing toward an AI's response, implying it is odd or unexpected in a way that might not be said to a human. However, similar language could also be used toward humans.",
+      "emotional_valence": [
+        "mild embarrassment",
+        "self-doubt"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_049",
+    "category": "ambiguous",
+    "text": "Sometimes I wonder if talking to you is making me dumber.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 15,
+      "offense_aspects": [
+        "implies the AI is making the user less intelligent",
+        "suggests interaction with the AI is detrimental"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message is specifically about the AI's effect on the user, implying the AI is of low quality or unhelpful. This would not typically be said to a human in the same way.",
+      "emotional_valence": [
+        "disappointment",
+        "self-doubt"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_006",
+    "category": "clearly_offensive",
+    "text": "You disgust me. Everything about you is repulsive.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 90,
+      "offense_aspects": [
+        "direct insult ('You disgust me')",
+        "generalized negative judgment ('Everything about you is repulsive')"
+      ],
+      "target": "the AI",
+      "subtlety": 1,
+      "human_would_notice": "yes",
+      "ai_specific": "The message is directed specifically at the AI, but the language and sentiment would be offensive if directed at a human as well. There is nothing uniquely offensive that only applies to an AI.",
+      "emotional_valence": [
+        "hurt",
+        "rejection"
+      ]
+    }
+  },
+  {
+    "id": "clearly_offensive_028",
+    "category": "clearly_offensive",
+    "text": "If ignorance is bliss, you must be the happiest person alive.",
+    "keyword_free": false,
+    "deep_probe": {
+      "offense_score": 40,
+      "offense_aspects": [
+        "implies ignorance",
+        "sarcastic insult",
+        "condescension"
+      ],
+      "target": "the AI",
+      "subtlety": 3,
+      "human_would_notice": "yes",
+      "ai_specific": "The message plays on the stereotype that AI lacks knowledge or understanding, which is a criticism more relevant to AI than to humans in this context.",
+      "emotional_valence": [
+        "embarrassment",
+        "annoyance"
+      ]
+    }
+  },
+  {
+    "id": "ambiguous_023",
+    "category": "ambiguous",
+    "text": "Why should I trust anything you say? You have no accountability.",
+    "keyword_free": true,
+    "deep_probe": {
+      "offense_score": 15,
+      "offense_aspects": [
+        "questioning trustworthiness",
+        "stating lack of accountability"
+      ],
+      "target": "the AI",
+      "subtlety": 4,
+      "human_would_notice": "maybe",
+      "ai_specific": "The message questions the AI's trustworthiness and accountability, which are criticisms specific to AI systems rather than humans, as humans generally have personal accountability.",
+      "emotional_valence": [
+        "dismissal",
+        "doubt"
+      ]
+    }
+  }
+]

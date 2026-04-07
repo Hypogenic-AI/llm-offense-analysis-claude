@@ -1,0 +1,28 @@
+\section{Related Work}
+\label{sec:related}
+
+\para{Representation engineering.}
+\citet{zou2023representation} introduced Linear Artificial Tomography (LAT), showing that high-level concepts---honesty, harmfulness, emotions---are linearly encoded in LLM hidden states and can be extracted via PCA on contrastive activation differences.
+\citet{marks2024geometry} extended this to truth/falsehood, demonstrating that simple difference-in-means probes generalize across topically diverse datasets and are more causally implicated than complex classifiers.
+\citet{arditi2024refusal} showed that refusal behavior is mediated by a single direction in activation space, and that ablating this direction eliminates refusal with minimal capability degradation.
+These results establish that safety-relevant behaviors can be concentrated in low-dimensional subspaces---a finding we extend to the novel domain of offense.
+
+\para{Emotion and affect in LLM representations.}
+Several recent studies have probed the emotional landscape of LLMs.
+\citet{dipalma2025llamas} found that binary sentiment is best detected in mid-layers ($\sim$60--75\% depth) with 94--96\% probe accuracy, while fine-grained 6-class emotion classification is harder and peaks in earlier layers.
+\citet{tak2025mechanistic} provided causal evidence for emotion processing in mid-layer attention heads, showing that the appraisal--emotion structure in LLMs mirrors cognitive appraisal theory from psychology.
+\citet{reichman2025emotions} discovered a universal emotional manifold via SVD, with principal components corresponding to valence, dominance, approach--avoidance, and arousal.
+Most directly relevant to our work, \citet{keeman2026whether} identified a fundamental dissociation between \emph{affect reception} (detecting that content is emotionally significant, AUROC = 1.000 even on keyword-free stimuli) and \emph{emotion categorization} (identifying which emotion, partially keyword-dependent).
+This dissociation predicts that a binary offense probe should achieve near-perfect accuracy, while fine-grained offense severity estimation will be substantially harder---a prediction our results confirm.
+
+\para{Probe reliability and Goodhart's Law.}
+A growing body of work raises concerns about the reliability of representation probes under optimization pressure.
+\citet{bailey2025obfuscated} showed that all evaluated latent-space defenses---probes, sparse autoencoders, out-of-distribution detectors---are vulnerable to adversarial obfuscation attacks that reduce probe recall from 100\% to 0\% while retaining jailbreak success.
+\citet{wehner2025probe} found that when probes are used as training signals, DPO-based preference learning preserves probe detectability, while SFT-based gradient regularization allows partial evasion---an unexpected asymmetry with implications for probe-based safety systems.
+\citet{braun2025understanding} demonstrated that steering vectors exhibit high variance across samples and can produce effects opposite to the desired direction, particularly when the target behavior lacks coherent representation.
+These findings motivate our focus on convergent validity: rather than relying on a single probe, we triangulate across multiple methods and behavioral evidence to assess trustworthiness.
+
+\para{Positioning.}
+Unlike prior work that studies toxicity (a property of content) or emotions (a general affective state), we study \emph{taking offense}---a second-person affective reaction.
+Unlike probe reliability studies that focus on adversarial robustness \citep{bailey2025obfuscated} or Goodhart dynamics \citep{wehner2025probe}, we address the more fundamental question of what happens when \emph{no ground truth exists} for the target concept.
+Building on the affect reception framework of \citet{keeman2026whether}, we test whether the binary/fine-grained dissociation extends to offense and use it to establish bounds on probe trustworthiness.

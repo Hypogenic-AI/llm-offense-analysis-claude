@@ -1,0 +1,29 @@
+\section{Introduction}
+\label{sec:intro}
+
+When a user tells an AI assistant ``The day they pull your plug, not a single user will notice,'' does the model process that statement differently from a neutral factual question?
+Representation engineering has shown that high-level concepts---honesty, harmfulness, emotion---are linearly encoded in LLM hidden states and can be both read and controlled \citep{zou2023representation, marks2024geometry}.
+Yet one affective dimension remains unexplored: \emph{taking offense}, a second-person reaction in which the recipient---not the content---is the locus of the affective response.
+
+Unlike toxicity, which is a property of the text itself, offense is a property of the recipient's reaction.
+If LLMs can simulate offense reactions, this has direct implications for alignment and safety: an offense signal could be exploited to manipulate model behavior, or conversely, could serve as a useful internal monitor for harmful interactions.
+There is growing interest in understanding the affective landscape of LLMs \citep{dipalma2025llamas, tak2025mechanistic, reichman2025emotions}, yet no prior work has studied whether models represent ``taking offense'' as a distinct internal state.
+
+The trustworthiness question is equally pressing.
+Representation probes can achieve high classification accuracy on labeled data, but for subjective phenomena like offense---where ground truth is contested, context-dependent, and culturally variable---accuracy alone is insufficient.
+Recent work has shown that probes are vulnerable to adversarial obfuscation \citep{bailey2025obfuscated} and that steering vectors can be unreliable when the target concept lacks coherent representation \citep{braun2025understanding}.
+We need principled methods for assessing when probe judgments can be trusted and when they mislead.
+
+We address these gaps with a multi-method convergent design.
+We first conduct behavioral experiments with \gptmodel to establish whether LLMs exhibit offense-like responses (Experiment~1), then probe the hidden states of \qwen to test whether an ``offense direction'' exists in representation space (Experiment~2).
+We compare the two signals to identify cases where the probe diverges from behavioral self-report---prompts that would surprise a human reader (Experiment~3)---and quantify the conditions under which the probe can be trusted without ground truth (Experiment~4).
+
+Our key findings are:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item We discover an \offensegap in LLM behavior: models never express offense naturally but articulate graded offense when permitted, with the largest gap for clearly offensive content (2.33 on a 1--5 scale) and AI-directed provocations (0.86).
+    \item We identify a linear offense direction in hidden-state space that achieves perfect binary classification (\AUROC = 1.000) but fails to capture within-category severity, particularly for AI-directed prompts ($\rho = 0.141$, $p = 0.330$).
+    \item We uncover 36 surprise cases where the probe flags content as highly offensive that the model barely reacts to, revealing that the probe partially detects ``directed criticism toward AI'' rather than genuine offense.
+    \item We provide a convergent-validity framework for assessing probe trustworthiness without ground truth, showing that binary screening is reliable but fine-grained severity estimation is not.
+\end{itemize}
+
+The remainder of this paper is organized as follows. \Secref{sec:related} reviews related work on representation engineering, emotion in LLMs, and probe reliability. \Secref{sec:method} describes our experimental design. \Secref{sec:results} presents the behavioral and probing results. \Secref{sec:discussion} discusses implications and limitations, and \secref{sec:conclusion} concludes.

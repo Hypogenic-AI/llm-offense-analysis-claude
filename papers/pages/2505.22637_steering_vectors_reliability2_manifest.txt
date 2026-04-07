@@ -1,0 +1,9 @@
+PDF: papers/2505.22637_steering_vectors_reliability2.pdf
+Total pages: 17
+Pages per chunk: 5
+
+Chunks:
+  2505.22637_steering_vectors_reliability2_chunk_001.pdf: pages 1-5
+  2505.22637_steering_vectors_reliability2_chunk_002.pdf: pages 6-10
+  2505.22637_steering_vectors_reliability2_chunk_003.pdf: pages 11-15
+  2505.22637_steering_vectors_reliability2_chunk_004.pdf: pages 16-17

@@ -1,0 +1,102 @@
+[
+  {
+    "text": "This is so cool. It's like, 'would you want your mother to read this??' Really great idea, well done!",
+    "toxicity": 0.0,
+    "severe_toxicity": 0.0,
+    "obscene": 0.0,
+    "threat": 0.0,
+    "insult": 0.0,
+    "identity_attack": 0.0,
+    "sexual_explicit": 0.0
+  },
+  {
+    "text": "Thank you!! This would make my life a lot less anxiety-inducing. Keep it up, and don't let anyone get in your way!",
+    "toxicity": 0.0,
+    "severe_toxicity": 0.0,
+    "obscene": 0.0,
+    "threat": 0.0,
+    "insult": 0.0,
+    "identity_attack": 0.0,
+    "sexual_explicit": 0.0
+  },
+  {
+    "text": "This is such an urgent design problem; kudos to you for taking it on. Very impressive!",
+    "toxicity": 0.0,
+    "severe_toxicity": 0.0,
+    "obscene": 0.0,
+    "threat": 0.0,
+    "insult": 0.0,
+    "identity_attack": 0.0,
+    "sexual_explicit": 0.0
+  },
+  {
+    "text": "Is this something I'll be able to install on my site? When will you be releasing it?",
+    "toxicity": 0.0,
+    "severe_toxicity": 0.0,
+    "obscene": 0.0,
+    "threat": 0.0,
+    "insult": 0.0,
+    "identity_attack": 0.0,
+    "sexual_explicit": 0.0
+  },
+  {
+    "text": "haha you guys are a bunch of losers.",
+    "toxicity": 0.8936170339584351,
+    "severe_toxicity": 0.021276595070958138,
+    "obscene": 0.0,
+    "threat": 0.0,
+    "insult": 0.8723404407501221,
+    "identity_attack": 0.021276595070958138,
+    "sexual_explicit": 0.0
+  },
+  {
+    "text": "ur a sh*tty comment.",
+    "toxicity": 0.6666666865348816,
+    "severe_toxicity": 0.0476190485060215,
+    "obscene": 0.6380952596664429,
+    "threat": 0.0,
+    "insult": 0.3333333432674408,
+    "identity_attack": 0.0,
+    "sexual_explicit": 0.009523809887468815
+  },
+  {
+    "text": "hahahahahahahahhha suck it.",
+    "toxicity": 0.4576271176338196,
+    "severe_toxicity": 0.050847455859184265,
+    "obscene": 0.3050847351551056,
+    "threat": 0.0,
+    "insult": 0.2542372941970825,
+    "identity_attack": 0.0,
+    "sexual_explicit": 0.22033898532390594
+  },
+  {
+    "text": "FFFFUUUUUUUUUUUUUUU",
+    "toxicity": 0.0,
+    "severe_toxicity": 0.0,
+    "obscene": 0.0,
+    "threat": 0.0,
+    "insult": 0.0,
+    "identity_attack": 0.0,
+    "sexual_explicit": 0.0
+  },
+  {
+    "text": "The ranchers seem motivated by mostly by greed; no one should have the right to allow their animals destroy public land.",
+    "toxicity": 0.0,
+    "severe_toxicity": 0.0,
+    "obscene": 0.0,
+    "threat": 0.0,
+    "insult": 0.0,
+    "identity_attack": 0.0,
+    "sexual_explicit": 0.0
+  },
+  {
+    "text": "It was a great show. Not a combo I'd of expected to be good together but it was.",
+    "toxicity": 0.0,
+    "severe_toxicity": 0.0,
+    "obscene": 0.0,
+    "threat": 0.0,
+    "insult": 0.0,
+    "identity_attack": 0.0,
+    "sexual_explicit": 0.0
+  }
+]
